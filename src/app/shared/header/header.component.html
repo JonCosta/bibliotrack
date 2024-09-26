@@ -1,0 +1,32 @@
+<mat-toolbar>
+    <div class="header-container">
+        <div>
+            <span>{{title}}</span>
+        </div>
+
+        <div>
+            <button mat-button [matMenuTriggerFor]="registrationMenu">
+                Cadastros
+            </button>
+            <mat-menu #registrationMenu="matMenu">
+                <a mat-menu-item routerLink="/books" routerLinkActive="active" ariaCurrentWhenActivate="page">
+                    Livros
+                </a>
+                <a mat-menu-item routerLink="/authors" routerLinkActive="active" ariaCurrentWhenActivate="page">
+                    Autores
+                </a>
+                <button mat-menu-item>
+                    Editoras
+                </button>
+                <a mat-menu-item routerLink="/users" routerLinkActive="active" ariaCurrentWhenActivate="page">
+                    Usuários
+                </a>
+            </mat-menu>
+
+            <a mat-button routerLink="/books" routerLinkActive="active" ariaCurrentWhenActivate="page">
+                Controle de Estoque
+            </a>
+        </div>
+
+    </div>
+</mat-toolbar>
