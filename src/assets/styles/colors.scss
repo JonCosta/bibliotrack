@@ -1,0 +1,28 @@
+$colorFernGreen: #52734d;
+$colorEggshell: #FAF3DD;
+$colorAzure: #3A86FF;
+$colorBrown: #8D5524;
+
+.color-white {
+    color: white;
+
+    .mdc-button__label {
+        color: white;
+    }
+}
+
+.bg-fern-green {
+    background-color: $colorFernGreen !important;
+}
+
+.color-fern-green {
+    color: $colorFernGreen;
+}
+
+.bg-eggshell {
+    background-color: $colorEggshell;
+}
+
+.bg-brown {
+    background-color: $colorBrown;
+}
