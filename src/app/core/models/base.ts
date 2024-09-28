@@ -1,3 +1,5 @@
+import User from "./user";
+
 class Base {
 
     id: number | null;
@@ -15,3 +17,5 @@ class Base {
     }
 
 }
+
+export default Base;

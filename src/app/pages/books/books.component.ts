@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { MatButtonModule } from '@angular/material/button';
-import { RouterModule } from '@angular/router';
+import { PageSharedModule } from '../../shared/modules/page-shared.module';
+import { BookListComponent } from './book-list/book-list.component';
 
 @Component({
     selector: 'app-books',
     standalone: true,
     imports: [
-        MatButtonModule,
-        RouterModule
+        PageSharedModule,
+        BookListComponent
     ],
     templateUrl: './books.component.html',
     styleUrl: './books.component.scss'

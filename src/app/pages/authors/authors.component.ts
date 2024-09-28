@@ -1,13 +1,11 @@
 import { Component } from '@angular/core';
-import { MatButtonModule } from '@angular/material/button';
-import { RouterModule } from '@angular/router';
+import { PageSharedModule } from '../../shared/modules/page-shared.module';
 
 @Component({
     selector: 'app-authors',
     standalone: true,
     imports: [
-        MatButtonModule,
-        RouterModule
+        PageSharedModule
     ],
     templateUrl: './authors.component.html',
     styleUrl: './authors.component.scss'

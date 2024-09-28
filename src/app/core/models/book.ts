@@ -1,3 +1,5 @@
+import Base from "./base";
+
 class Book extends Base {
 
     name: string | null;
@@ -7,3 +9,5 @@ class Book extends Base {
         this.name = null;
     }
 }
+
+export default Book;
