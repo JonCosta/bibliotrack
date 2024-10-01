@@ -1,10 +1,10 @@
 @use "./variables";
 
 .color-white {
-    color: white;
+    color: variables.$colorWhite;
 
     .mdc-button__label {
-        color: white;
+        color: variables.$colorWhite;
     }
 }
 
@@ -12,26 +12,26 @@
     background-color: variables.$colorWhite !important;
 }
 
-.bg-jet {
+.bg-black {
     background-color: variables.$colorBlack !important;
 }
 
-.color-jet {
+.color-black {
     color: variables.$colorBlack !important;
 }
 
-.bg-pigment-green {
+.bg-green {
     background-color: variables.$colorGreen !important;
 }
 
-.color-pigment-green {
+.color-green {
     color: variables.$colorGreen;
 }
 
-.bg-robin-egg-blue {
+.bg-blue {
     background-color: variables.$colorBlue !important;
 }
 
-.color-robin-egg-blue {
+.color-blue {
     color: variables.$colorBlue;
 }

@@ -1,1 +1,42 @@
-<p>user-form works!</p>
+<form class="flex-column" [formGroup]="userForm" (ngSubmit)="onSubmitForm()">
+
+    <div class="flex-row">
+        <mat-form-field>
+            <mat-label>
+                Nome
+            </mat-label>
+            <input type="text" matInput formControlName="name">
+        </mat-form-field>
+    
+        <mat-form-field>
+            <mat-label>Perfil</mat-label>
+            <mat-select formControlName="profile">
+              @for (profile of profileList; track profile) {
+                <mat-option [value]="profile">
+                    {{profile}}
+                </mat-option>
+              }
+            </mat-select>
+          </mat-form-field>
+    </div>
+
+      <div class="flex-row">
+          <mat-form-field>
+              <mat-label>
+                  E-mail
+              </mat-label>
+              <input type="email" matInput formControlName="email">
+          </mat-form-field>
+      
+          <mat-form-field>
+              <mat-label>
+                  Senha
+              </mat-label>
+              <input type="password" matInput formControlName="password">
+          </mat-form-field>
+      </div>
+
+    <button type="submit" mat-button [disabled]="!userForm.valid">
+        Salvar
+    </button>
+</form>

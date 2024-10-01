@@ -1,6 +1,13 @@
+@use "../styles/variables.scss";
+
 .page-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 12px;
+
+    .new-item-button {
+        background-color: variables.$colorBlue;
+        color: variables.$colorWhite !important;
+    }
 }

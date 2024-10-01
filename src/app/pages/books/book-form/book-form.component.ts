@@ -1,15 +1,12 @@
 import { Component } from '@angular/core';
-import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatInputModule } from '@angular/material/input';
+import { FormControl, FormGroup } from '@angular/forms';
+import { FormSharedModule } from '../../../shared/modules/form-shared.module';
 
 @Component({
     selector: 'app-book-form',
     standalone: true,
     imports: [
-        MatFormFieldModule,
-        MatInputModule,
-        ReactiveFormsModule
+        FormSharedModule
     ],
     templateUrl: './book-form.component.html',
     styleUrl: './book-form.component.scss'
