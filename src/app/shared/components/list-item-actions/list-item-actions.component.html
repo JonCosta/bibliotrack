@@ -1,0 +1,10 @@
+@if (isShowEdit) {
+    <button mat-icon-button (click)="emitEdit()" matTooltip="Editar">
+        <mat-icon aria-hidden="false" aria-label="Actions Icon" fontIcon="edit"></mat-icon>
+    </button>
+}
+@if (isShowDelete) {
+    <button mat-icon-button (click)="emitDelete()" matTooltip="Remover">
+        <mat-icon aria-hidden="false" aria-label="Actions Icon" fontIcon="delete_forever"></mat-icon>
+    </button>
+}

@@ -29,4 +29,14 @@ export class UserListComponent {
             password: null
         }
     ];
+
+    handleClickEdit(id: number) {
+        console.log("Edit clicked", id);
+        
+    }
+
+    handleClickDelete(id: number) {
+        console.log("Delete clicked", id);
+        
+    }
 }

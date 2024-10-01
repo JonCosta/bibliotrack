@@ -1,7 +1,4 @@
-$colorFernGreen: #52734d;
-$colorEggshell: #FAF3DD;
-$colorAzure: #3A86FF;
-$colorBrown: #8D5524;
+@use "./variables";
 
 .color-white {
     color: white;
@@ -11,18 +8,30 @@ $colorBrown: #8D5524;
     }
 }
 
-.bg-fern-green {
-    background-color: $colorFernGreen !important;
+.bg-white {
+    background-color: variables.$colorWhite !important;
 }
 
-.color-fern-green {
-    color: $colorFernGreen;
+.bg-jet {
+    background-color: variables.$colorBlack !important;
 }
 
-.bg-eggshell {
-    background-color: $colorEggshell;
+.color-jet {
+    color: variables.$colorBlack !important;
 }
 
-.bg-brown {
-    background-color: $colorBrown;
+.bg-pigment-green {
+    background-color: variables.$colorGreen !important;
+}
+
+.color-pigment-green {
+    color: variables.$colorGreen;
+}
+
+.bg-robin-egg-blue {
+    background-color: variables.$colorBlue !important;
+}
+
+.color-robin-egg-blue {
+    color: variables.$colorBlue;
 }
