@@ -21,5 +21,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     table {
         background-color: variables.$colorWhite;
         color: variables.$colorBlack;
+
+        td.mat-column-name {
+            font-weight: 600;
+        }
     }
 }
