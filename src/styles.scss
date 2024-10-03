@@ -15,15 +15,3 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     height: 100%;
 }
 
-.table-container {
-    margin: 0px 14px;
-    
-    table {
-        background-color: variables.$colorWhite;
-        color: variables.$colorBlack;
-
-        td.mat-column-name {
-            font-weight: 600;
-        }
-    }
-}

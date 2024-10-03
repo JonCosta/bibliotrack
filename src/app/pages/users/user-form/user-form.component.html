@@ -1,42 +1,49 @@
-<form class="flex-column" [formGroup]="userForm" (ngSubmit)="onSubmitForm()">
+<mat-card appearance="outlined" class="form-container">
+    <mat-card-content>
+        <form class="flex-column gap-2" [formGroup]="userForm" (ngSubmit)="onSubmitForm()">
+        
+            <h3>Dados Pessoais</h3>
 
-    <div class="flex-row">
-        <mat-form-field>
-            <mat-label>
-                Nome
-            </mat-label>
-            <input type="text" matInput formControlName="name">
-        </mat-form-field>
-    
-        <mat-form-field>
-            <mat-label>Perfil</mat-label>
-            <mat-select formControlName="profile">
-              @for (profile of profileList; track profile) {
-                <mat-option [value]="profile">
-                    {{profile}}
-                </mat-option>
-              }
-            </mat-select>
-          </mat-form-field>
-    </div>
-
-      <div class="flex-row">
-          <mat-form-field>
-              <mat-label>
-                  E-mail
-              </mat-label>
-              <input type="email" matInput formControlName="email">
-          </mat-form-field>
-      
-          <mat-form-field>
-              <mat-label>
-                  Senha
-              </mat-label>
-              <input type="password" matInput formControlName="password">
-          </mat-form-field>
-      </div>
-
-    <button type="submit" mat-button [disabled]="!userForm.valid">
-        Salvar
-    </button>
-</form>
+            <div class="flex-row gap-2">
+                <mat-form-field appearance="outline" class="flex-grow-2">
+                    <mat-label>Nome</mat-label>
+                    <input type="text" matInput formControlName="name">
+                </mat-form-field>
+        
+                <mat-form-field appearance="outline" class="flex-grow-1">
+                    <mat-label>Perfil</mat-label>
+                    <mat-select formControlName="profile">
+                        @for (profile of profileList; track profile) {
+                        <mat-option [value]="profile">
+                            {{profile}}
+                        </mat-option>
+                        }
+                    </mat-select>
+                </mat-form-field>
+            </div>
+            
+            <h3>Dados de Acesso</h3>
+            <div class="flex-row gap-2">
+                <mat-form-field appearance="outline" class="flex-grow-1">
+                    <mat-label>E-mail</mat-label>
+                    <input type="email" matInput formControlName="email">
+                </mat-form-field>
+        
+                <mat-form-field appearance="outline" class="flex-grow-1">
+                    <mat-label>Senha</mat-label>
+                    <input type="password" matInput formControlName="password">
+                </mat-form-field>
+            </div>
+        
+            <div>
+                <button type="submit" mat-button [disabled]="!userForm.valid">
+                    Salvar
+                </button>
+                <button type="button" mat-button>
+                    Cancelar
+                </button>
+            </div>
+        
+        </form>
+    </mat-card-content>
+</mat-card>
