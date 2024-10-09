@@ -1,3 +1,4 @@
+import { parseISOString } from "../../shared/utils/utils";
 import Profile from "../enums/profile";
 import Base from "./base";
 
@@ -22,7 +23,7 @@ class User extends Base {
             this.name = user.name;
             this.profile = user.profile;
             this.email = user.email;
-            this.lastAccessAt = user["last_access_at"];
+            this.lastAccessAt = parseISOString(user["last_access_at"]);
         }
     }
 };

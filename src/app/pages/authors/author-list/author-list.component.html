@@ -1,1 +1,38 @@
-<p>author-list works!</p>
+<mat-card class="table-container">
+    <mat-card-content>
+        <table mat-table [dataSource]="tableDataSource">
+        
+            <ng-container matColumnDef="name">
+                <th mat-header-cell *matHeaderCellDef> Name </th>
+                <td mat-cell *matCellDef="let author"> {{author.name}} </td>
+            </ng-container>
+        
+            <ng-container matColumnDef="createdAt">
+                <th mat-header-cell *matHeaderCellDef> Created At </th>
+                <td mat-cell *matCellDef="let author">
+                    {{author.createdAt | date:"dd/MM/yyyy HH:mm"}}
+                </td>
+            </ng-container>
+        
+            <ng-container matColumnDef="updatedAt">
+                <th mat-header-cell *matHeaderCellDef> Updated At </th>
+                <td mat-cell *matCellDef="let author">
+                    {{author.updatedAt | date:"dd/MM/yyyy HH:mm"}}
+                </td>
+            </ng-container>
+        
+            <ng-container matColumnDef="actions">
+                <th mat-header-cell *matHeaderCellDef> Actions </th>
+                <td mat-cell *matCellDef="let author">
+                    <list-item-actions [elementId]="author.id" (onClickEdit)="handleClickEdit($event)"
+                        (onClickDelete)="handleClickDelete($event)"></list-item-actions>
+                </td>
+            </ng-container>
+        
+            <tr mat-header-row *matHeaderRowDef="displayedColumnList"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumnList;"></tr>
+        </table>
+
+        <mat-paginator [pageSizeOptions]="[25, 50, 100]" showFirstLastButtons></mat-paginator>
+    </mat-card-content>
+</mat-card>

@@ -4,6 +4,7 @@ import { MatTableDataSource } from '@angular/material/table';
 import * as mockData from "../../../../assets/mock/users.json";
 import User from '../../../core/models/user';
 import { ListSharedModule } from '../../../shared/modules/list-shared.module';
+import { sortObjectsByName } from '../../../shared/utils/utils';
 
 @Component({
   selector: 'app-user-list',
@@ -50,21 +51,9 @@ export class UserListComponent {
             let newUser = new User(user);
             userList.push(newUser);
         });
-        this.sortUsersByName(userList);
+        sortObjectsByName(userList);
         this.tableDataSource = new MatTableDataSource(userList);
         this.isLoading = false;
-    }
-
-    private sortUsersByName(userList: User[]) {
-        return userList.sort((userA, userB) => {
-            if (userA.name > userB.name) {
-                return 1;
-            }
-            if (userA.name < userB.name) {
-                return -1;
-            }
-            return 0;
-        })
     }
 
 }
