@@ -8,30 +8,30 @@
 
     <div>
         <button mat-button class="color-white" [matMenuTriggerFor]="registrationMenu">
-            Cadastros
+            Registrations
         </button>
         <mat-menu #registrationMenu="matMenu">
             <a mat-menu-item routerLink="/books" routerLinkActive="active" ariaCurrentWhenActivate="page">
                 <mat-icon aria-hidden="false" aria-label="Actions Icon" fontIcon="library_books"></mat-icon>
-                Livros
+                Books
             </a>
             <a mat-menu-item routerLink="/authors" routerLinkActive="active" ariaCurrentWhenActivate="page">
                 <mat-icon aria-hidden="false" aria-label="Actions Icon" fontIcon="person_edit"></mat-icon>
-                Autores
+                Authors
             </a>
             <button mat-menu-item routerLink="/publishers" routerLinkActive="active" ariaCurrentWhenActivate="page">
                 <mat-icon aria-hidden="false" aria-label="Actions Icon" fontIcon="corporate_fare"></mat-icon>
-                Editoras
+                Publishers
             </button>
             <a mat-menu-item routerLink="/users" routerLinkActive="active" ariaCurrentWhenActivate="page">
                 <mat-icon aria-hidden="false" aria-label="Actions Icon" fontIcon="group"></mat-icon>
-                Usuários
+                Users
             </a>
         </mat-menu>
 
         <a mat-button class="color-white"
             routerLink="/inventory" routerLinkActive="active" ariaCurrentWhenActivate="page">
-            Controle de Estoque
+            Inventory Control
         </a>
     </div>
 
