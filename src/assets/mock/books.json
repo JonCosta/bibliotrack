@@ -1,0 +1,355 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "name": "The Fellowship of the Ring",
+            "created_at": "2023-11-07T15:44:43Z",
+            "updated_at": "2024-05-26T16:41:51Z",
+            "created_by": 97,
+            "updated_by": 157,
+            "author": {
+                "id": 1,
+                "name": "Tolkien"
+            },
+            "publisher": 192
+        },
+        {
+            "id": 2,
+            "name": "The Two Towers",
+            "created_at": "2023-10-22T04:48:58Z",
+            "updated_at": "2024-08-14T10:21:19Z",
+            "created_by": 35,
+            "updated_by": 137,
+            "author": {
+                "id": 1,
+                "name": "Tolkien"
+            },
+            "publisher": 96
+        },
+        {
+            "id": 3,
+            "name": "The Return of the King",
+            "created_at": "2024-02-27T20:26:31Z",
+            "updated_at": "2024-08-30T07:32:02Z",
+            "created_by": 182,
+            "updated_by": 70,
+            "author": {
+                "id": 1,
+                "name": "Tolkien"
+            },
+            "publisher": 181
+        },
+        {
+            "id": 4,
+            "name": "Pollyanna",
+            "created_at": "2023-11-29T00:38:39Z",
+            "updated_at": "2024-09-12T16:04:55Z",
+            "created_by": 163,
+            "updated_by": 187,
+            "author": {
+                "id": 8,
+                "name": "Eleanor H. Porter"
+            },
+            "publisher": 166
+        },
+        {
+            "id": 5,
+            "name": "The Hobbit",
+            "created_at": "2024-01-19T00:23:53Z",
+            "updated_at": "2024-07-06T04:17:10Z",
+            "created_by": 184,
+            "updated_by": 70,
+            "author": {
+                "id": 1,
+                "name": "Tolkien"
+            },
+            "publisher": 112
+        },
+        {
+            "id": 6,
+            "name": "The Art of War",
+            "created_at": "2024-03-20T00:52:00Z",
+            "updated_at": "2024-07-12T23:18:42Z",
+            "created_by": 51,
+            "updated_by": 149,
+            "author": 5,
+            "publisher": 153
+        },
+        {
+            "id": 7,
+            "name": "The Lightning Thief",
+            "created_at": "2023-12-16T00:22:33Z",
+            "updated_at": "2024-08-16T21:35:04Z",
+            "created_by": 139,
+            "updated_by": 119,
+            "author": 3,
+            "publisher": 113
+        },
+        {
+            "id": 8,
+            "name": "The Fault in Our Stars",
+            "created_at": "2023-11-06T22:18:20Z",
+            "updated_at": "2024-09-30T09:19:34Z",
+            "created_by": 155,
+            "updated_by": 71,
+            "author": {
+                "id": 2,
+                "name": "John Green"
+            },
+            "publisher": 137
+        },
+        {
+            "id": 9,
+            "name": "Harry Potter and the Sorcerer’s Stone",
+            "created_at": "2024-01-03T17:54:00Z",
+            "updated_at": "2024-05-25T02:43:51Z",
+            "created_by": 134,
+            "updated_by": 192,
+            "author": {
+                "id": 4,
+                "name": "J.K. Rowling"
+            },
+            "publisher": 86
+        },
+        {
+            "id": 10,
+            "name": "Pride and Prejudice",
+            "created_at": "2023-10-01T11:50:18Z",
+            "updated_at": "2024-06-07T00:09:54Z",
+            "created_by": 51,
+            "updated_by": 56,
+            "author": 5,
+            "publisher": 191
+        },
+        {
+            "id": 11,
+            "name": "Lord of the Flies",
+            "created_at": "2023-10-26T19:10:44Z",
+            "updated_at": "2024-08-14T10:01:24Z",
+            "created_by": 6,
+            "updated_by": 79,
+            "author": 6,
+            "publisher": 69
+        },
+        {
+            "id": 12,
+            "name": "Mockingjay",
+            "created_at": "2023-10-01T10:33:39Z",
+            "updated_at": "2024-04-23T04:44:47Z",
+            "created_by": 8,
+            "updated_by": 175,
+            "author": 9,
+            "publisher": 83
+        },
+        {
+            "id": 13,
+            "name": "Catching Fire",
+            "created_at": "2024-01-14T16:19:15Z",
+            "updated_at": "2024-08-01T18:08:42Z",
+            "created_by": 115,
+            "updated_by": 189,
+            "author": 9,
+            "publisher": 133
+        },
+        {
+            "id": 14,
+            "name": "1984",
+            "created_at": "2024-02-19T21:30:05Z",
+            "updated_at": "2024-04-12T20:17:09Z",
+            "created_by": 177,
+            "updated_by": 108,
+            "author": 10,
+            "publisher": 39
+        },
+        {
+            "id": 15,
+            "name": "Twilight",
+            "created_at": "2023-12-16T05:34:12Z",
+            "updated_at": "2024-06-30T15:30:30Z",
+            "created_by": 20,
+            "updated_by": 79,
+            "author": 11,
+            "publisher": 19
+        },
+        {
+            "id": 16,
+            "name": "Looking for Alaska",
+            "created_at": "2023-09-09T21:39:53Z",
+            "updated_at": "2024-05-08T18:42:56Z",
+            "created_by": 62,
+            "updated_by": 104,
+            "author": {
+                "id": 2,
+                "name": "John Green"
+            },
+            "publisher": 97
+        },
+        {
+            "id": 17,
+            "name": "Animal Farm",
+            "created_at": "2024-03-02T14:25:19Z",
+            "updated_at": "2024-08-03T12:37:02Z",
+            "created_by": 153,
+            "updated_by": 152,
+            "author": 10,
+            "publisher": 23
+        },
+        {
+            "id": 18,
+            "name": "Dracula",
+            "created_at": "2024-03-18T20:53:51Z",
+            "updated_at": "2024-05-28T18:59:18Z",
+            "created_by": 43,
+            "updated_by": 1,
+            "author": 13,
+            "publisher": 136
+        },
+        {
+            "id": 19,
+            "name": "Dune",
+            "created_at": "2023-11-02T15:31:56Z",
+            "updated_at": "2024-07-09T11:12:48Z",
+            "created_by": 72,
+            "updated_by": 144,
+            "author": 14,
+            "publisher": 91
+        },
+        {
+            "id": 20,
+            "name": "Dune Messiah",
+            "created_at": "2023-12-19T21:14:08Z",
+            "updated_at": "2024-06-03T21:43:19Z",
+            "created_by": 192,
+            "updated_by": 170,
+            "author": 14,
+            "publisher": 192
+        },
+        {
+            "id": 21,
+            "name": "Children of Dune",
+            "created_at": "2023-10-06T04:12:07Z",
+            "updated_at": "2024-09-18T17:33:13Z",
+            "created_by": 157,
+            "updated_by": 109,
+            "author": 14,
+            "publisher": 108
+        },
+        {
+            "id": 22,
+            "name": "New Moon",
+            "created_at": "2023-11-20T16:22:41Z",
+            "updated_at": "2024-08-23T06:14:21Z",
+            "created_by": 184,
+            "updated_by": 42,
+            "author": {
+                "id": 11,
+                "name": "Stephanie Meyer"
+            },
+            "publisher": 196
+        },
+        {
+            "id": 23,
+            "name": "Eclipse",
+            "created_at": "2023-10-16T12:33:09Z",
+            "updated_at": "2024-07-23T02:22:52Z",
+            "created_by": 62,
+            "updated_by": 125,
+            "author": {
+                "id": 11,
+                "name": "Stephanie Meyer"
+            },
+            "publisher": 118
+        },
+        {
+            "id": 24,
+            "name": "Angels & Demons",
+            "created_at": "2023-12-28T11:12:23Z",
+            "updated_at": "2024-08-12T06:06:13Z",
+            "created_by": 33,
+            "updated_by": 13,
+            "author": {
+                "id": 12,
+                "name": "Dan Brown"
+            },
+            "publisher": 142
+        },
+        {
+            "id": 25,
+            "name": "The Da Vinci Code",
+            "created_at": "2023-09-17T18:43:57Z",
+            "updated_at": "2024-04-15T22:01:57Z",
+            "created_by": 30,
+            "updated_by": 156,
+            "author": {
+                "id": 12,
+                "name": "Dan Brown"
+            },
+            "publisher": 176
+        },
+        {
+            "id": 26,
+            "name": "Digital Fortress",
+            "created_at": "2023-09-03T18:40:18Z",
+            "updated_at": "2024-07-29T06:53:50Z",
+            "created_by": 186,
+            "updated_by": 55,
+            "author": {
+                "id": 12,
+                "name": "Dan Brown"
+            },
+            "publisher": 134
+        },
+        {
+            "id": 27,
+            "name": "Harry Potter and the Prisoner of Azkaban",
+            "created_at": "2023-09-26T20:08:17Z",
+            "updated_at": "2024-04-20T22:38:31Z",
+            "created_by": 136,
+            "updated_by": 146,
+            "author": {
+                "id": 4,
+                "name": "J.K. Rowling"
+            },
+            "publisher": 77
+        },
+        {
+            "id": 28,
+            "name": "Harry Potter and the Chamber of Secrets",
+            "created_at": "2023-10-01T22:40:12Z",
+            "updated_at": "2024-07-05T02:59:01Z",
+            "created_by": 105,
+            "updated_by": 93,
+            "author": {
+                "id": 4,
+                "name": "J.K. Rowling"
+            },
+            "publisher": 112
+        },
+        {
+            "id": 29,
+            "name": "The Alchemist",
+            "created_at": "2023-10-08T13:39:20Z",
+            "updated_at": "2024-10-07T14:44:57Z",
+            "created_by": 61,
+            "updated_by": 48,
+            "author": {
+                "id": 15,
+                "name": "Paulo Coelho"
+            },
+            "publisher": 21
+        },
+        {
+            "id": 30,
+            "name": "To Kill a Mockingbird",
+            "created_at": "2024-02-03T20:11:58Z",
+            "updated_at": "2024-08-05T17:15:29Z",
+            "created_by": 138,
+            "updated_by": 152,
+            "author": {
+                "id": 16,
+                "name": "Harper Lee"
+            },
+            "publisher": 94
+        }
+    ]
+}

@@ -1,33 +1,51 @@
-<div class="table-container">
-    <table mat-table [dataSource]="tableDataSource">
-    
-        <ng-container matColumnDef="name">
-            <th mat-header-cell *matHeaderCellDef> Nome </th>
-            <td mat-cell *matCellDef="let user"> {{user.name}} </td>
-        </ng-container>
-    
-        <ng-container matColumnDef="author">
-            <th mat-header-cell *matHeaderCellDef> Autor </th>
-            <td mat-cell *matCellDef="let user">
-                ...
-            </td>
-        </ng-container>
-    
-        <ng-container matColumnDef="publisher">
-            <th mat-header-cell *matHeaderCellDef> Editora </th>
-            <td mat-cell *matCellDef="let user">
-                ...
-            </td>
-        </ng-container>
-    
-        <ng-container matColumnDef="actions">
-            <th mat-header-cell *matHeaderCellDef> Ações </th>
-            <td mat-cell *matCellDef="let user">
-                <list-item-actions></list-item-actions>
-            </td>
-        </ng-container>
-    
-        <tr mat-header-row *matHeaderRowDef="displayedColumnList"></tr>
-        <tr mat-row *matRowDef="let row; columns: displayedColumnList;"></tr>
-    </table>
-</div>
+<mat-card class="table-container">
+    <mat-card-content>
+        <table mat-table [dataSource]="tableDataSource">
+        
+            <ng-container matColumnDef="name">
+                <th mat-header-cell *matHeaderCellDef> Name </th>
+                <td mat-cell *matCellDef="let book"> {{book.name}} </td>
+            </ng-container>
+        
+            <ng-container matColumnDef="author">
+                <th mat-header-cell *matHeaderCellDef> Author </th>
+                <td mat-cell *matCellDef="let book">
+                    {{book.author?.name}}
+                </td>
+            </ng-container>
+        
+            <ng-container matColumnDef="publisher">
+                <th mat-header-cell *matHeaderCellDef> Publisher </th>
+                <td mat-cell *matCellDef="let book">
+                    ...
+                </td>
+            </ng-container>
+        
+            <ng-container matColumnDef="createdAt">
+                <th mat-header-cell *matHeaderCellDef> Created At </th>
+                <td mat-cell *matCellDef="let book">
+                    {{book.createdAt | date:"dd/MM/yyyy HH:mm"}}
+                </td>
+            </ng-container>
+        
+            <ng-container matColumnDef="updatedAt">
+                <th mat-header-cell *matHeaderCellDef> Updated At </th>
+                <td mat-cell *matCellDef="let book">
+                    {{book.updatedAt | date:"dd/MM/yyyy HH:mm"}}
+                </td>
+            </ng-container>
+        
+            <ng-container matColumnDef="actions">
+                <th mat-header-cell *matHeaderCellDef> Actions </th>
+                <td mat-cell *matCellDef="let book">
+                    <list-item-actions></list-item-actions>
+                </td>
+            </ng-container>
+        
+            <tr mat-header-row *matHeaderRowDef="displayedColumnList"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumnList;"></tr>
+        </table>
+
+        <mat-paginator [pageSizeOptions]="[25, 50, 100]" showFirstLastButtons></mat-paginator>
+    </mat-card-content>
+</mat-card>

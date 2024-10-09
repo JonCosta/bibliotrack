@@ -1,3 +1,5 @@
+import Base from "./base";
+
 class Author extends Base {
 
     name: string | null;
@@ -7,3 +9,5 @@ class Author extends Base {
         this.name = null;
     }
 }
+
+export default Author;
