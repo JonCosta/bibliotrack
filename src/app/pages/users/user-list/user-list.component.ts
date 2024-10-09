@@ -7,13 +7,13 @@ import { ListSharedModule } from '../../../shared/modules/list-shared.module';
 import { sortObjectsByName } from '../../../shared/utils/utils';
 
 @Component({
-  selector: 'app-user-list',
-  standalone: true,
-  imports: [
-    ListSharedModule
-  ],
-  templateUrl: './user-list.component.html',
-  styleUrl: './user-list.component.scss'
+    selector: 'app-user-list',
+    standalone: true,
+    imports: [
+        ListSharedModule
+    ],
+    templateUrl: './user-list.component.html',
+    styleUrl: './user-list.component.scss'
 })
 export class UserListComponent {
 
@@ -35,12 +35,12 @@ export class UserListComponent {
 
     handleClickEdit(id: number) {
         console.log("Edit clicked", id);
-        
+
     }
 
     handleClickDelete(id: number) {
         console.log("Delete clicked", id);
-        
+
     }
 
     private loadListFromMock() {
