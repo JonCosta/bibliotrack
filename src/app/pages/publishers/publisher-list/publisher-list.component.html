@@ -1,21 +1,30 @@
 <mat-card class="table-container">
     <mat-card-content>
-        <table mat-table [dataSource]="tableDataSource">
+        <table mat-table [dataSource]="tableDataSource"
+            matSort matSortActive="name" matSortDirection="asc">
         
             <ng-container matColumnDef="name">
-                <th mat-header-cell *matHeaderCellDef> Name </th>
-                <td mat-cell *matCellDef="let publisher"> {{publisher.name}} </td>
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                    Name
+                </th>
+                <td mat-cell *matCellDef="let publisher">
+                    {{publisher.name}}
+                </td>
             </ng-container>
         
             <ng-container matColumnDef="createdAt">
-                <th mat-header-cell *matHeaderCellDef> Created At </th>
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                    Created At
+                </th>
                 <td mat-cell *matCellDef="let publisher">
                     {{publisher.createdAt | date:"dd/MM/yyyy HH:mm"}}
                 </td>
             </ng-container>
 
             <ng-container matColumnDef="updatedAt">
-                <th mat-header-cell *matHeaderCellDef> Updated At </th>
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                    Updated At
+                </th>
                 <td mat-cell *matCellDef="let publisher">
                     {{publisher.updatedAt | date:"dd/MM/yyyy HH:mm"}}
                 </td>

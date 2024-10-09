@@ -1,35 +1,48 @@
 <mat-card class="table-container">
     <mat-card-content>
-        <table mat-table [dataSource]="tableDataSource">
+        <table mat-table [dataSource]="tableDataSource"
+            matSort matSortActive="name" matSortDirection="asc">
         
             <ng-container matColumnDef="name">
-                <th mat-header-cell *matHeaderCellDef> Name </th>
-                <td mat-cell *matCellDef="let book"> {{book.name}} </td>
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                    Name
+                </th>
+                <td mat-cell *matCellDef="let book">
+                    {{book.name}}
+                </td>
             </ng-container>
         
             <ng-container matColumnDef="author">
-                <th mat-header-cell *matHeaderCellDef> Author </th>
+                <th mat-header-cell *matHeaderCellDef>
+                    Author
+                </th>
                 <td mat-cell *matCellDef="let book">
                     {{book.author?.name}}
                 </td>
             </ng-container>
         
             <ng-container matColumnDef="publisher">
-                <th mat-header-cell *matHeaderCellDef> Publisher </th>
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                    Publisher
+                </th>
                 <td mat-cell *matCellDef="let book">
                     ...
                 </td>
             </ng-container>
         
             <ng-container matColumnDef="createdAt">
-                <th mat-header-cell *matHeaderCellDef> Created At </th>
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                    Created At
+                </th>
                 <td mat-cell *matCellDef="let book">
                     {{book.createdAt | date:"dd/MM/yyyy HH:mm"}}
                 </td>
             </ng-container>
         
             <ng-container matColumnDef="updatedAt">
-                <th mat-header-cell *matHeaderCellDef> Updated At </th>
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                    Updated At
+                </th>
                 <td mat-cell *matCellDef="let book">
                     {{book.updatedAt | date:"dd/MM/yyyy HH:mm"}}
                 </td>

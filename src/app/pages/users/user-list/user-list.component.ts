@@ -1,10 +1,10 @@
 import { ChangeDetectorRef, Component, ViewChild } from '@angular/core';
 import { MatPaginator, MatPaginatorIntl } from '@angular/material/paginator';
+import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import * as mockData from "../../../../assets/mock/users.json";
 import User from '../../../core/models/user';
 import { ListSharedModule } from '../../../shared/modules/list-shared.module';
-import { sortObjectsByName } from '../../../shared/utils/utils';
 
 @Component({
     selector: 'app-user-list',
@@ -22,6 +22,7 @@ export class UserListComponent {
     tableDataSource = new MatTableDataSource<User>([]);
 
     @ViewChild(MatPaginator) paginator: MatPaginator = new MatPaginator(new MatPaginatorIntl(), ChangeDetectorRef.prototype);
+    @ViewChild(MatSort) sort: MatSort = new MatSort();
 
     constructor() { }
 
@@ -31,6 +32,7 @@ export class UserListComponent {
 
     ngAfterViewInit() {
         this.tableDataSource.paginator = this.paginator;
+        this.tableDataSource.sort = this.sort;
     }
 
     handleClickEdit(id: number) {
@@ -51,7 +53,7 @@ export class UserListComponent {
             let newUser = new User(user);
             userList.push(newUser);
         });
-        sortObjectsByName(userList);
+        
         this.tableDataSource = new MatTableDataSource(userList);
         this.isLoading = false;
     }

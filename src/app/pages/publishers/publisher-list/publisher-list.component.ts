@@ -1,5 +1,6 @@
 import { ChangeDetectorRef, Component, ViewChild } from '@angular/core';
 import { MatPaginator, MatPaginatorIntl } from '@angular/material/paginator';
+import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import * as mockData from "../../../../assets/mock/publishers.json";
 import Publisher from '../../../core/models/publisher';
@@ -22,6 +23,7 @@ export class PublisherListComponent {
     tableDataSource = new MatTableDataSource<Publisher>([]);
 
     @ViewChild(MatPaginator) paginator: MatPaginator = new MatPaginator(new MatPaginatorIntl(), ChangeDetectorRef.prototype);
+    @ViewChild(MatSort) sort: MatSort = new MatSort();
 
     constructor() { }
 
@@ -31,6 +33,7 @@ export class PublisherListComponent {
 
     ngAfterViewInit() {
         this.tableDataSource.paginator = this.paginator;
+        this.tableDataSource.sort = this.sort;
     }
 
     handleClickEdit(id: number) {

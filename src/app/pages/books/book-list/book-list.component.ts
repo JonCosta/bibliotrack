@@ -3,6 +3,7 @@ import Book from '../../../core/models/book';
 import { ListSharedModule } from '../../../shared/modules/list-shared.module';
 
 import { MatPaginator, MatPaginatorIntl } from '@angular/material/paginator';
+import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import * as mockData from "../../../../assets/mock/books.json";
 
@@ -23,6 +24,7 @@ export class BookListComponent {
     tableDataSource = new MatTableDataSource<Book>([]);
 
     @ViewChild(MatPaginator) paginator: MatPaginator = new MatPaginator(new MatPaginatorIntl(), ChangeDetectorRef.prototype);
+    @ViewChild(MatSort) sort: MatSort = new MatSort();
 
     constructor() { }
 
@@ -32,6 +34,7 @@ export class BookListComponent {
 
     ngAfterViewInit() {
         this.tableDataSource.paginator = this.paginator;
+        this.tableDataSource.sort = this.sort;
     }
     
     private loadBookListFromMock() {
