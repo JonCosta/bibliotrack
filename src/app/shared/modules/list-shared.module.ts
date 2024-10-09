@@ -6,11 +6,13 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatTableModule } from '@angular/material/table';
 import { RouterModule } from '@angular/router';
 import { ListItemActionsComponent } from '../components/list-item-actions/list-item-actions.component';
+import { EnumPipe } from '../pipes/enum.pipe';
 
 @NgModule({
     declarations: [],
     imports: [
         DatePipe,
+        EnumPipe,
         ListItemActionsComponent,
         MatButtonModule,
         MatCardModule,
@@ -20,6 +22,7 @@ import { ListItemActionsComponent } from '../components/list-item-actions/list-i
     ],
     exports: [
         DatePipe,
+        EnumPipe,
         ListItemActionsComponent,
         MatButtonModule,
         MatCardModule,
