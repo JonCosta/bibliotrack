@@ -7,29 +7,29 @@
     </div>
 
     <div>
-        <button mat-button class="color-white" [matMenuTriggerFor]="registrationMenu">
+        <button mat-button class="btn-menu color-white" [matMenuTriggerFor]="registrationMenu">
             Registrations
         </button>
         <mat-menu #registrationMenu="matMenu">
             <a mat-menu-item routerLink="/books" routerLinkActive="active" ariaCurrentWhenActivate="page">
-                <mat-icon aria-hidden="false" aria-label="Actions Icon" fontIcon="library_books"></mat-icon>
+                <mat-icon aria-hidden="false" aria-label="Books Icon" fontIcon="library_books"></mat-icon>
                 Books
             </a>
             <a mat-menu-item routerLink="/authors" routerLinkActive="active" ariaCurrentWhenActivate="page">
-                <mat-icon aria-hidden="false" aria-label="Actions Icon" fontIcon="draw"></mat-icon>
+                <mat-icon aria-hidden="false" aria-label="Authors Icon" fontIcon="draw"></mat-icon>
                 Authors
             </a>
             <button mat-menu-item routerLink="/publishers" routerLinkActive="active" ariaCurrentWhenActivate="page">
-                <mat-icon aria-hidden="false" aria-label="Actions Icon" fontIcon="corporate_fare"></mat-icon>
+                <mat-icon aria-hidden="false" aria-label="Publisher Icon" fontIcon="corporate_fare"></mat-icon>
                 Publishers
             </button>
             <a mat-menu-item routerLink="/users" routerLinkActive="active" ariaCurrentWhenActivate="page">
-                <mat-icon aria-hidden="false" aria-label="Actions Icon" fontIcon="group"></mat-icon>
+                <mat-icon aria-hidden="false" aria-label="Users Icon" fontIcon="group"></mat-icon>
                 Users
             </a>
         </mat-menu>
 
-        <a mat-button class="color-white"
+        <a mat-button class="btn-menu color-white"
             routerLink="/inventory" routerLinkActive="active" ariaCurrentWhenActivate="page">
             Inventory Control
         </a>

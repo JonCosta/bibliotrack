@@ -1,10 +1,23 @@
 @use "../styles/variables.scss";
 
+.page-container {
+    margin: 2vh 2.5vw;
+}
+
+.page-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: variables.$fontSize2xl;
+    font-weight: 700;
+    margin: 2vh 0 !important;
+}
+
 .page-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 12px;
+    margin-bottom: 1vh;
 
     .new-item-button {
         background-color: variables.$colorBlue;
@@ -13,7 +26,6 @@
 }
 
 .table-container {
-    margin: 0px 14px 20px 014px;
     
     table {
         // background-color: variables.$colorWhite;
