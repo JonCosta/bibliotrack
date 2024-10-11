@@ -6,11 +6,13 @@ class Book extends Base {
 
     name: string;
     author: IdName | null;
+    publisher: IdName | null;
 
     constructor(book?: any) {
         super();
         this.name = "";
         this.author = null;
+        this.publisher = null;
 
         if (book) {
             this.id = book.id;
@@ -18,6 +20,7 @@ class Book extends Base {
             this.createdAt = parseISOString(book["created_at"]);
             this.updatedAt = parseISOString(book["updated_at"]);
             this.author = new IdName(book.author);
+            this.publisher = new IdName(book.publisher);
         }
     }
 

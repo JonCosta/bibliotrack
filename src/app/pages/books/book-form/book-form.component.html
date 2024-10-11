@@ -1,10 +1,62 @@
-<p>book-form works!</p>
+<h2 class="form-title">
+    New Book
+</h2>
 
-<form [formGroup]="bookForm">
-    <mat-form-field>
-        <mat-label>
-            Nome
-        </mat-label>
-        <input type="text" matInput formControlName="name">
-    </mat-form-field>
-</form>
+<mat-card appearance="outlined" class="form-container">
+    <mat-card-content>
+        <form [formGroup]="bookForm" (ngSubmit)="onSubmitForm()">
+            <h3 class="form-subtitle">
+                Book Data
+            </h3>
+
+            <div class="form-row">
+                <mat-form-field appearance="outline" class="flex-grow-1">
+                    <mat-label>Name</mat-label>
+                    <input type="text" matInput formControlName="name">
+                </mat-form-field>
+        
+            </div>
+            
+            <div class="form-row">
+                <mat-form-field appearance="outline" class="flex-grow-1">
+                    <mat-label>Author</mat-label>
+                    <mat-select formControlName="author">
+                        @for (author of authorList; track author) {
+                        <mat-option [value]="author">
+                            {{author.name}}
+                        </mat-option>
+                        }
+                    </mat-select>
+                </mat-form-field>
+
+                <mat-form-field appearance="outline" class="flex-grow-1">
+                    <mat-label>Publisher</mat-label>
+                    <mat-select formControlName="publisher">
+                        @for (publisher of publisherList; track publisher) {
+                        <mat-option [value]="publisher">
+                            {{publisher.name}}
+                        </mat-option>
+                        }
+                    </mat-select>
+                </mat-form-field>
+
+            </div>
+            
+            <div class="form-button-row">
+                <button type="submit" mat-flat-button [disabled]="!bookForm.valid"
+                    [ngClass]="{ 'form-btn-submit-valid': bookForm.valid, 'form-btn-submit-invalid': !bookForm.valid }">
+                    Save
+                </button>
+                <a mat-flat-button routerLink="/books" class="form-btn-cancel">
+                    Cancel
+                </a>
+            </div>
+            @if (!bookForm.valid) {
+            <div class="form-valid-label">
+                * You must fill all mandatory fields to continue
+            </div>
+            }
+        
+        </form>
+    </mat-card-content>
+</mat-card>
