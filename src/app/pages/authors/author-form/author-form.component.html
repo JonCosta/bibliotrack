@@ -1,1 +1,36 @@
-<p>author-form works!</p>
+<h2 class="form-title">
+    New Author
+</h2>
+
+<mat-card appearance="outlined" class="form-container">
+    <mat-card-content>
+        <form [formGroup]="authorForm" (ngSubmit)="onSubmitForm()">
+            <h3 class="form-subtitle">
+                About the Author
+            </h3>
+
+            <div class="form-row">
+                <mat-form-field appearance="outline" class="flex-grow-2">
+                    <mat-label>Name</mat-label>
+                    <input type="text" matInput formControlName="name">
+                </mat-form-field>
+            </div>
+            
+            <div class="form-button-row">
+                <button type="submit" mat-flat-button [disabled]="!authorForm.valid"
+                    [ngClass]="{ 'form-btn-submit-valid': authorForm.valid, 'form-btn-submit-invalid': !authorForm.valid }">
+                    Save
+                </button>
+                <a mat-flat-button routerLink="/users" class="form-btn-cancel">
+                    Cancel
+                </a>
+            </div>
+            @if (!authorForm.valid) {
+            <div class="form-valid-label">
+                * You must fill all mandatory fields to continue
+            </div>
+            }
+        
+        </form>
+    </mat-card-content>
+</mat-card>
