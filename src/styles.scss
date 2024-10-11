@@ -3,6 +3,7 @@
 @import "./assets/styles/colors.scss";
 @import "./assets/styles/flex.scss";
 @import "./assets/styles/layout.scss";
+@import "./assets/styles/form.scss";
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
@@ -15,3 +16,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     height: 100%;
 }
 
+.font-italic {
+    font-style: italic;
+}
+
+.ml-24 {
+    margin-left: 24px !important;
+}
+
+.mt-12 {
+    margin-top: 12px !important;
+}

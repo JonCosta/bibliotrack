@@ -1,0 +1,58 @@
+@use "../styles/variables.scss";
+
+.form-title {
+    margin: 3vh 2vw;
+}
+
+.form-subtitle {
+    margin-top: 1.5vh;
+}
+
+.form-container {
+    margin: 2vh 2vw;
+    padding: 0px 8px;
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.form-button-row {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    justify-content: right;
+    margin-top: 2vh;
+}
+
+.form-btn-submit-valid {
+    background-color: variables.$colorGreen !important;
+    color: variables.$colorWhite !important;
+}
+
+.form-btn-submit-invalid {
+    background-color: variables.$colorWhite !important;
+    border: 1px solid variables.$colorGreen !important;
+    color: variables.$colorGreen !important;
+}
+
+.form-btn-cancel {
+    background-color: gray !important;
+    color: white !important;
+}
+
+.form-valid-label {
+    color: gray;
+    font-style: italic;
+    font-size: variables.$fontSizeSm;
+    line-height: 1.25rem; /* 20px */
+    margin-top: 8px;
+    text-align: right;
+}

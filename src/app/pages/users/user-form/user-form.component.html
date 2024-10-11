@@ -1,48 +1,61 @@
+<h2 class="form-title">
+    New User
+</h2>
+
 <mat-card appearance="outlined" class="form-container">
     <mat-card-content>
-        <form class="flex-column gap-2" [formGroup]="userForm" (ngSubmit)="onSubmitForm()">
-        
-            <h3>Dados Pessoais</h3>
+        <form [formGroup]="userForm" (ngSubmit)="onSubmitForm()">
+            <h3 class="form-subtitle">
+                Personal Data
+            </h3>
 
-            <div class="flex-row gap-2">
+            <div class="form-row">
                 <mat-form-field appearance="outline" class="flex-grow-2">
-                    <mat-label>Nome</mat-label>
+                    <mat-label>Name</mat-label>
                     <input type="text" matInput formControlName="name">
                 </mat-form-field>
         
                 <mat-form-field appearance="outline" class="flex-grow-1">
-                    <mat-label>Perfil</mat-label>
+                    <mat-label>Profile</mat-label>
                     <mat-select formControlName="profile">
                         @for (profile of profileList; track profile) {
                         <mat-option [value]="profile">
-                            {{profile}}
+                            {{profile | enum:"profile"}}
                         </mat-option>
                         }
                     </mat-select>
                 </mat-form-field>
             </div>
             
-            <h3>Dados de Acesso</h3>
-            <div class="flex-row gap-2">
+            <h3 class="form-subtitle">
+                Access Data
+            </h3>
+            <div class="form-row">
                 <mat-form-field appearance="outline" class="flex-grow-1">
-                    <mat-label>E-mail</mat-label>
+                    <mat-label>Email</mat-label>
                     <input type="email" matInput formControlName="email">
                 </mat-form-field>
         
                 <mat-form-field appearance="outline" class="flex-grow-1">
-                    <mat-label>Senha</mat-label>
+                    <mat-label>Password</mat-label>
                     <input type="password" matInput formControlName="password">
                 </mat-form-field>
             </div>
         
-            <div>
-                <button type="submit" mat-button [disabled]="!userForm.valid">
-                    Salvar
+            <div class="form-button-row">
+                <button type="submit" mat-flat-button [disabled]="!userForm.valid"
+                    [ngClass]="{ 'form-btn-submit-valid': userForm.valid, 'form-btn-submit-invalid': !userForm.valid }">
+                    Save
                 </button>
-                <button type="button" mat-button>
-                    Cancelar
-                </button>
+                <a mat-flat-button routerLink="/users" class="form-btn-cancel">
+                    Cancel
+                </a>
             </div>
+            @if (!userForm.valid) {
+            <div class="form-valid-label">
+                * You must fill all mandatory fields to continue
+            </div>
+            }
         
         </form>
     </mat-card-content>
