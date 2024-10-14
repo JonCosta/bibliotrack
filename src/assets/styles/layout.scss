@@ -19,10 +19,11 @@
     align-items: center;
     margin-bottom: 1vh;
 
-    .new-item-button {
-        background-color: variables.$colorBlue;
-        color: variables.$colorWhite !important;
-    }
+}
+
+.new-item-button {
+    background-color: variables.$colorBlue !important;
+    color: variables.$colorWhite !important;
 }
 
 .table-container {
