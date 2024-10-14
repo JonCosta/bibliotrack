@@ -7,6 +7,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
+import { RouterModule } from '@angular/router';
 import { EnumPipe } from '../pipes/enum.pipe';
 
 @NgModule({
@@ -20,6 +21,7 @@ import { EnumPipe } from '../pipes/enum.pipe';
         MatInputModule,
         MatSelectModule,
         ReactiveFormsModule,
+        RouterModule
     ],
     exports: [
         CommonModule,
@@ -31,6 +33,7 @@ import { EnumPipe } from '../pipes/enum.pipe';
         MatInputModule,
         MatSelectModule,
         ReactiveFormsModule,
+        RouterModule
     ]
 })
 export class FormSharedModule { }
