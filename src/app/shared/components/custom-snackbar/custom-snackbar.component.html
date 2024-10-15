@@ -1,0 +1,21 @@
+<div class="snackbar-container">
+    <div class="snack-message" [ngClass]="{ 'success': data.isSuccess, 'error': data.isError }">
+        @if (data.isSuccess) {
+            <mat-icon aria-hidden="false" aria-label="Actions Icon" fontIcon="download_done"></mat-icon>
+        }
+        @if (data.isError) {
+            <mat-icon aria-hidden="false" aria-label="Actions Icon" fontIcon="error_outline"></mat-icon>
+        }
+        @if (data.isLoading) {
+            <mat-spinner diameter="20"></mat-spinner>
+        }
+        <span>{{data.message}}</span>
+    </div>
+    @if (!data.isLoading){
+        <div class="dismiss">
+            <button mat-icon-button class="color-white" (click)="snackBarRef.dismiss()">
+                <mat-icon>close</mat-icon>
+            </button>
+        </div>
+    }
+</div>

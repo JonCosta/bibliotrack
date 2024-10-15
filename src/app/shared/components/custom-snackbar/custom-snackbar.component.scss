@@ -1,0 +1,25 @@
+@use "../../../../assets/styles/variables.scss";
+
+.snackbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.snack-message {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: variables.$fontSizeLg;
+    font-weight: 300;
+    margin: 2vh 0 !important;
+
+    &.success {
+        color: variables.$colorSuccess;
+    }
+
+    &.error {
+        color: variables.$colorError;
+    }
+    
+}

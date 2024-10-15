@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { RouterModule } from '@angular/router';
@@ -18,6 +19,7 @@ import { EnumPipe } from '../pipes/enum.pipe';
         MatButtonModule,
         MatCardModule,
         MatPaginatorModule,
+        MatSnackBarModule,
         MatSortModule,
         MatTableModule,
         RouterModule
@@ -29,6 +31,7 @@ import { EnumPipe } from '../pipes/enum.pipe';
         MatButtonModule,
         MatCardModule,
         MatPaginatorModule,
+        MatSnackBarModule,
         MatSortModule,
         MatTableModule,
         RouterModule
