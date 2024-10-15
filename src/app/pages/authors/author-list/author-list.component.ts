@@ -4,6 +4,8 @@ import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import * as mockData from "../../../../assets/mock/authors.json";
 import Author from '../../../core/models/author';
+import { DialogService } from '../../../core/services/dialog.service';
+import { SnackbarService } from '../../../core/services/snackbar.service';
 import { ListSharedModule } from '../../../shared/modules/list-shared.module';
 import { sortObjectsByName } from '../../../shared/utils/utils';
 
@@ -18,6 +20,7 @@ import { sortObjectsByName } from '../../../shared/utils/utils';
 })
 export class AuthorListComponent {
 
+    authorList: Author[] = [];
     displayedColumnList: string[] = ['name', 'createdAt', 'updatedAt', 'actions'];
     isLoading: boolean = false;
     tableDataSource = new MatTableDataSource<Author>([]);
@@ -25,7 +28,10 @@ export class AuthorListComponent {
     @ViewChild(MatPaginator) paginator: MatPaginator = new MatPaginator(new MatPaginatorIntl(), ChangeDetectorRef.prototype);
     @ViewChild(MatSort) sort: MatSort = new MatSort();
 
-    constructor() { }
+    constructor(
+        private dialogService: DialogService,
+        private snackbarService: SnackbarService
+    ) { }
 
     ngOnInit() {
         this.loadListFromMock();
@@ -41,22 +47,39 @@ export class AuthorListComponent {
 
     }
 
-    handleClickDelete(id: number) {
-        console.log("Delete clicked", id);
+    confirmDeleteAuthor(id: number) {
+        const dialogRef = this.dialogService.createConfirmationDialog(
+            "Delete Author",
+            "Are you sure you wish to delete this author?"
+        );
 
+        dialogRef.afterClosed().subscribe(isConfirmed => {
+            if (isConfirmed) {
+                this.deleteAuthor(id)
+            }
+        });
     }
 
     private loadListFromMock() {
         if (!mockData) return;
         this.isLoading = true;
-        let authorList: Author[] = [];
+        this.authorList = [];
         mockData.authors.forEach(mockAuthor => {
             let author = new Author(mockAuthor);
-            authorList.push(author);
+            this.authorList.push(author);
         });
-        sortObjectsByName(authorList);
-        this.tableDataSource = new MatTableDataSource(authorList);
+        sortObjectsByName(this.authorList);
+        this.tableDataSource = new MatTableDataSource(this.authorList);
         this.isLoading = false;
+    }
+
+    private deleteAuthor(id: number) {
+        this.snackbarService.showLoadingSnackbar("Deleting author...");
+        setTimeout(() => {
+            this.authorList = this.authorList.filter(author => author.id !== id);
+            this.tableDataSource = new MatTableDataSource(this.authorList);
+            this.snackbarService.showSuccessSnackbar("The author has been deleted");
+        }, 3000);
     }
 
 }
