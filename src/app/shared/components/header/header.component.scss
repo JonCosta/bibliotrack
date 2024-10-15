@@ -11,3 +11,14 @@
         background-color: variables.$colorBlue;
     }
 }
+
+.logo {
+    color: variables.$colorWhite;
+    font-family: "Allerta Stencil", sans-serif;
+    font-size: variables.$fontSize2xl;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
