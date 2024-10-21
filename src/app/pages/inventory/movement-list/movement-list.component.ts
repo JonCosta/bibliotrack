@@ -2,6 +2,7 @@ import { ChangeDetectorRef, Component, ViewChild } from '@angular/core';
 import { MatPaginator, MatPaginatorIntl } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
+import moment from 'moment';
 import * as mockData from "../../../../assets/mock/movements.json";
 import Movement from '../../../core/models/movement';
 import { ListSharedModule } from '../../../shared/modules/list-shared.module';
@@ -31,6 +32,7 @@ export class MovementListComponent {
 
     ngAfterViewInit() {
         this.tableDataSource.paginator = this.paginator;
+        this.setupTableSortAccessor();
         this.tableDataSource.sort = this.sort;
     }
 
@@ -46,6 +48,19 @@ export class MovementListComponent {
         this.movementList = tempBookList;
         this.tableDataSource = new MatTableDataSource(this.movementList);
         this.isLoading = false;
+    }
+
+    private setupTableSortAccessor() {
+        this.tableDataSource.sortingDataAccessor = (item, property) => {
+            switch(property) {
+              case 'book_name': return item.book?.name || '';
+              case 'createdBy_name': return item.createdBy?.name || '';
+              case 'movementDate': return moment(item.movementDate).format();
+              case 'type': return item.type?.toString() || '';
+              case 'quantity': return item.quantity || 0;
+              default: return item.id || 0;
+            }
+        };
     }
 
 }

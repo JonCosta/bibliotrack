@@ -1,4 +1,4 @@
-import { DatePipe } from '@angular/common';
+import { CommonModule, DatePipe } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
@@ -13,6 +13,7 @@ import { EnumPipe } from '../pipes/enum.pipe';
 @NgModule({
     declarations: [],
     imports: [
+        CommonModule,
         DatePipe,
         EnumPipe,
         ListItemActionsComponent,
@@ -25,6 +26,7 @@ import { EnumPipe } from '../pipes/enum.pipe';
         RouterModule
     ],
     exports: [
+        CommonModule,
         DatePipe,
         EnumPipe,
         ListItemActionsComponent,

@@ -15,8 +15,27 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .h-full {
     height: 100%;
 }
+
 .snack-message {
     .mat-mdc-progress-spinner .mdc-circular-progress__indeterminate-circle-graphic {
         stroke: variables.$colorWhite !important;
+    }
+}
+
+.movement-type-label {
+    border-radius: 10px;
+    color: white;
+    padding: 4px 12px;
+    
+    &.type-1 {
+        background-color: #28a745;
+    }
+
+    &.type-2 {
+        background-color: #dc3545;
+    }
+
+    &.type-3 {
+        background-color: #007bff;
     }
 }
