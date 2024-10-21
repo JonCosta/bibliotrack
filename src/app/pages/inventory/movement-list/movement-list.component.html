@@ -1,0 +1,63 @@
+<mat-card class="table-container" appearance="outlined">
+    <mat-card-content>
+        <table mat-table [dataSource]="tableDataSource" matSort matSortActive="movementDate" matSortDirection="desc">
+
+            <ng-container matColumnDef="movementDate">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                    Date
+                </th>
+                <td mat-cell *matCellDef="let movement">
+                    {{movement.movementDate | date:"dd/MM/yyyy HH:mm"}}
+                </td>
+            </ng-container>
+
+            <ng-container matColumnDef="type">
+                <th mat-header-cell *matHeaderCellDef>
+                    Type
+                </th>
+                <td mat-cell *matCellDef="let movement">
+                    {{movement.type | enum:"movementType"}}
+                </td>
+            </ng-container>
+            
+            <ng-container matColumnDef="quantity">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                    Quantity
+                </th>
+                <td mat-cell *matCellDef="let movement">
+                    {{movement.quantity}}
+                </td>
+            </ng-container>
+
+            <ng-container matColumnDef="book_name">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                    Book
+                </th>
+                <td mat-cell *matCellDef="let movement">
+                    {{movement.book.name}}
+                </td>
+            </ng-container>
+
+            <ng-container matColumnDef="createdBy_name">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                    Registered by
+                </th>
+                <td mat-cell *matCellDef="let movement">
+                    {{movement.createdBy.name}}
+                </td>
+            </ng-container>
+
+            <ng-container matColumnDef="actions">
+                <th mat-header-cell *matHeaderCellDef> Actions </th>
+                <td mat-cell *matCellDef="let movement">
+                    <list-item-actions [elementId]="movement.id"></list-item-actions>
+                </td>
+            </ng-container>
+
+            <tr mat-header-row *matHeaderRowDef="displayedColumnList"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumnList;"></tr>
+        </table>
+
+        <mat-paginator [pageSizeOptions]="[25, 50, 100]" showFirstLastButtons></mat-paginator>
+    </mat-card-content>
+</mat-card>

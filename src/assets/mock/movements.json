@@ -1,0 +1,2004 @@
+{
+    "movements": [
+        {
+            "id": 1,
+            "movement_date": "2024-07-12 11:59:23",
+            "book": {
+                "id": 27,
+                "name": "Harry Potter and the Prisoner of Azkaban"
+            },
+            "quantity": 8,
+            "type": 2,
+            "created_at": "2024-07-03 11:59:23",
+            "updated_at": "2023-05-02 11:59:23",
+            "created_by": {
+                "id": 51,
+                "name": "Zuzana Gabbotts"
+            },
+            "updated_by": {
+                "id": 170,
+                "name": "Kelwin Philippsohn"
+            }
+        },
+        {
+            "id": 2,
+            "movement_date": "2023-12-04 11:59:23",
+            "book": {
+                "id": 12,
+                "name": "Mockingjay"
+            },
+            "quantity": 10,
+            "type": 3,
+            "created_at": "2023-02-01 11:59:23",
+            "updated_at": "2023-01-24 11:59:23",
+            "created_by": {
+                "id": 79,
+                "name": "Emery Thorpe"
+            },
+            "updated_by": {
+                "id": 132,
+                "name": "Cinnamon Schout"
+            }
+        },
+        {
+            "id": 3,
+            "movement_date": "2023-02-13 11:59:23",
+            "book": {
+                "id": 2,
+                "name": "The Two Towers"
+            },
+            "quantity": 5,
+            "type": 1,
+            "created_at": "2022-12-03 11:59:23",
+            "updated_at": "2024-02-20 11:59:23",
+            "created_by": {
+                "id": 81,
+                "name": "Homer Malt"
+            },
+            "updated_by": {
+                "id": 103,
+                "name": "Keenan Sondland"
+            }
+        },
+        {
+            "id": 4,
+            "movement_date": "2023-12-15 11:59:23",
+            "book": {
+                "id": 22,
+                "name": "New Moon"
+            },
+            "quantity": 3,
+            "type": 3,
+            "created_at": "2024-08-10 11:59:23",
+            "updated_at": "2024-05-05 11:59:23",
+            "created_by": {
+                "id": 17,
+                "name": "Eric Younger"
+            },
+            "updated_by": {
+                "id": 38,
+                "name": "Bev Marmon"
+            }
+        },
+        {
+            "id": 5,
+            "movement_date": "2024-03-18 11:59:23",
+            "book": {
+                "id": 12,
+                "name": "Mockingjay"
+            },
+            "quantity": 6,
+            "type": 3,
+            "created_at": "2023-07-31 11:59:23",
+            "updated_at": "2022-11-05 11:59:23",
+            "created_by": {
+                "id": 106,
+                "name": "Bret Le Fevre"
+            },
+            "updated_by": {
+                "id": 163,
+                "name": "Fanni Cheak"
+            }
+        },
+        {
+            "id": 6,
+            "movement_date": "2023-04-23 11:59:23",
+            "book": {
+                "id": 29,
+                "name": "The Alchemist"
+            },
+            "quantity": 2,
+            "type": 2,
+            "created_at": "2023-11-29 11:59:23",
+            "updated_at": "2023-06-30 11:59:23",
+            "created_by": {
+                "id": 24,
+                "name": "Farlay Hurleston"
+            },
+            "updated_by": {
+                "id": 50,
+                "name": "Rosetta Evill"
+            }
+        },
+        {
+            "id": 7,
+            "movement_date": "2024-03-16 11:59:23",
+            "book": {
+                "id": 8,
+                "name": "The Fault in Our Stars"
+            },
+            "quantity": 9,
+            "type": 2,
+            "created_at": "2023-04-28 11:59:23",
+            "updated_at": "2023-06-09 11:59:23",
+            "created_by": {
+                "id": 175,
+                "name": "Norry Morris"
+            },
+            "updated_by": {
+                "id": 188,
+                "name": "Powell Course"
+            }
+        },
+        {
+            "id": 8,
+            "movement_date": "2024-07-05 11:59:23",
+            "book": {
+                "id": 13,
+                "name": "Catching Fire"
+            },
+            "quantity": 5,
+            "type": 3,
+            "created_at": "2023-08-22 11:59:23",
+            "updated_at": "2024-03-14 11:59:23",
+            "created_by": {
+                "id": 32,
+                "name": "Minni Alessandone"
+            },
+            "updated_by": {
+                "id": 197,
+                "name": "Ketty Bernardet"
+            }
+        },
+        {
+            "id": 9,
+            "movement_date": "2024-02-25 11:59:23",
+            "book": {
+                "id": 17,
+                "name": "Animal Farm"
+            },
+            "quantity": 8,
+            "type": 1,
+            "created_at": "2024-07-17 11:59:23",
+            "updated_at": "2023-11-16 11:59:23",
+            "created_by": {
+                "id": 195,
+                "name": "Marillin Clapston"
+            },
+            "updated_by": {
+                "id": 64,
+                "name": "Rosanne Kiellor"
+            }
+        },
+        {
+            "id": 10,
+            "movement_date": "2024-04-08 11:59:23",
+            "book": {
+                "id": 2,
+                "name": "The Two Towers"
+            },
+            "quantity": 3,
+            "type": 2,
+            "created_at": "2024-03-27 11:59:23",
+            "updated_at": "2024-07-08 11:59:23",
+            "created_by": {
+                "id": 41,
+                "name": "Lorinda Jayume"
+            },
+            "updated_by": {
+                "id": 28,
+                "name": "Sharla Bairstow"
+            }
+        },
+        {
+            "id": 11,
+            "movement_date": "2024-01-05 11:59:23",
+            "book": {
+                "id": 25,
+                "name": "The Da Vinci Code"
+            },
+            "quantity": 4,
+            "type": 2,
+            "created_at": "2023-08-29 11:59:23",
+            "updated_at": "2024-05-21 11:59:23",
+            "created_by": {
+                "id": 58,
+                "name": "Shawna Spensley"
+            },
+            "updated_by": {
+                "id": 45,
+                "name": "Truman Mc Menamin"
+            }
+        },
+        {
+            "id": 12,
+            "movement_date": "2024-01-04 11:59:23",
+            "book": {
+                "id": 29,
+                "name": "The Alchemist"
+            },
+            "quantity": 2,
+            "type": 3,
+            "created_at": "2023-04-02 11:59:23",
+            "updated_at": "2023-05-01 11:59:23",
+            "created_by": {
+                "id": 166,
+                "name": "Ulrich Ledwitch"
+            },
+            "updated_by": {
+                "id": 122,
+                "name": "Woodman Swadling"
+            }
+        },
+        {
+            "id": 13,
+            "movement_date": "2023-05-22 11:59:23",
+            "book": {
+                "id": 21,
+                "name": "Children of Dune"
+            },
+            "quantity": 1,
+            "type": 2,
+            "created_at": "2023-10-31 11:59:23",
+            "updated_at": "2024-02-16 11:59:23",
+            "created_by": {
+                "id": 103,
+                "name": "Keenan Sondland"
+            },
+            "updated_by": {
+                "id": 184,
+                "name": "Seward Rainy"
+            }
+        },
+        {
+            "id": 14,
+            "movement_date": "2022-12-24 11:59:23",
+            "book": {
+                "id": 19,
+                "name": "Dune"
+            },
+            "quantity": 10,
+            "type": 1,
+            "created_at": "2023-10-31 11:59:23",
+            "updated_at": "2023-05-14 11:59:23",
+            "created_by": {
+                "id": 100,
+                "name": "Katinka Chisman"
+            },
+            "updated_by": {
+                "id": 156,
+                "name": "Padraic Sculley"
+            }
+        },
+        {
+            "id": 15,
+            "movement_date": "2023-07-13 11:59:23",
+            "book": {
+                "id": 9,
+                "name": "Harry Potter and the Sorcerer\u2019s Stone"
+            },
+            "quantity": 2,
+            "type": 1,
+            "created_at": "2023-07-22 11:59:23",
+            "updated_at": "2023-06-21 11:59:23",
+            "created_by": {
+                "id": 150,
+                "name": "Emanuel Davson"
+            },
+            "updated_by": {
+                "id": 143,
+                "name": "Raviv Figgures"
+            }
+        },
+        {
+            "id": 16,
+            "movement_date": "2023-03-24 11:59:23",
+            "book": {
+                "id": 1,
+                "name": "The Fellowship of the Ring"
+            },
+            "quantity": 3,
+            "type": 1,
+            "created_at": "2023-07-01 11:59:23",
+            "updated_at": "2022-10-26 11:59:23",
+            "created_by": {
+                "id": 135,
+                "name": "Bibi Devonport"
+            },
+            "updated_by": {
+                "id": 109,
+                "name": "Karia Dimbleby"
+            }
+        },
+        {
+            "id": 17,
+            "movement_date": "2024-06-10 11:59:23",
+            "book": {
+                "id": 4,
+                "name": "Pollyanna"
+            },
+            "quantity": 5,
+            "type": 3,
+            "created_at": "2022-11-09 11:59:23",
+            "updated_at": "2023-04-20 11:59:23",
+            "created_by": {
+                "id": 99,
+                "name": "Gabi Witherby"
+            },
+            "updated_by": {
+                "id": 1,
+                "name": "Jonathan Costa"
+            }
+        },
+        {
+            "id": 18,
+            "movement_date": "2024-03-23 11:59:23",
+            "book": {
+                "id": 30,
+                "name": "To Kill a Mockingbird"
+            },
+            "quantity": 9,
+            "type": 3,
+            "created_at": "2023-10-21 11:59:23",
+            "updated_at": "2024-06-05 11:59:23",
+            "created_by": {
+                "id": 145,
+                "name": "Godart Ault"
+            },
+            "updated_by": {
+                "id": 160,
+                "name": "Shea Jimeno"
+            }
+        },
+        {
+            "id": 19,
+            "movement_date": "2023-03-28 11:59:23",
+            "book": {
+                "id": 18,
+                "name": "Dracula"
+            },
+            "quantity": 9,
+            "type": 3,
+            "created_at": "2023-09-11 11:59:23",
+            "updated_at": "2023-03-07 11:59:23",
+            "created_by": {
+                "id": 105,
+                "name": "Beth Pestell"
+            },
+            "updated_by": {
+                "id": 11,
+                "name": "Aretha Ions"
+            }
+        },
+        {
+            "id": 20,
+            "movement_date": "2024-01-04 11:59:23",
+            "book": {
+                "id": 8,
+                "name": "The Fault in Our Stars"
+            },
+            "quantity": 4,
+            "type": 2,
+            "created_at": "2024-07-12 11:59:23",
+            "updated_at": "2024-05-02 11:59:23",
+            "created_by": {
+                "id": 63,
+                "name": "Tully Spinas"
+            },
+            "updated_by": {
+                "id": 64,
+                "name": "Rosanne Kiellor"
+            }
+        },
+        {
+            "id": 21,
+            "movement_date": "2024-07-13 11:59:23",
+            "book": {
+                "id": 26,
+                "name": "Digital Fortress"
+            },
+            "quantity": 9,
+            "type": 3,
+            "created_at": "2023-09-21 11:59:23",
+            "updated_at": "2022-10-28 11:59:23",
+            "created_by": {
+                "id": 7,
+                "name": "Deerdre Bamling"
+            },
+            "updated_by": {
+                "id": 180,
+                "name": "Wainwright Dallosso"
+            }
+        },
+        {
+            "id": 22,
+            "movement_date": "2024-03-25 11:59:23",
+            "book": {
+                "id": 17,
+                "name": "Animal Farm"
+            },
+            "quantity": 4,
+            "type": 2,
+            "created_at": "2023-11-14 11:59:23",
+            "updated_at": "2023-10-17 11:59:23",
+            "created_by": {
+                "id": 124,
+                "name": "Iseabal Ramsier"
+            },
+            "updated_by": {
+                "id": 160,
+                "name": "Shea Jimeno"
+            }
+        },
+        {
+            "id": 23,
+            "movement_date": "2023-05-08 11:59:23",
+            "book": {
+                "id": 22,
+                "name": "New Moon"
+            },
+            "quantity": 8,
+            "type": 3,
+            "created_at": "2024-06-29 11:59:23",
+            "updated_at": "2023-08-07 11:59:23",
+            "created_by": {
+                "id": 27,
+                "name": "Olvan McGairl"
+            },
+            "updated_by": {
+                "id": 137,
+                "name": "Gabriel Skelding"
+            }
+        },
+        {
+            "id": 24,
+            "movement_date": "2023-07-08 11:59:23",
+            "book": {
+                "id": 14,
+                "name": "1984"
+            },
+            "quantity": 4,
+            "type": 1,
+            "created_at": "2023-07-04 11:59:23",
+            "updated_at": "2023-02-05 11:59:23",
+            "created_by": {
+                "id": 156,
+                "name": "Padraic Sculley"
+            },
+            "updated_by": {
+                "id": 41,
+                "name": "Lorinda Jayume"
+            }
+        },
+        {
+            "id": 25,
+            "movement_date": "2022-12-17 11:59:23",
+            "book": {
+                "id": 26,
+                "name": "Digital Fortress"
+            },
+            "quantity": 4,
+            "type": 2,
+            "created_at": "2024-07-16 11:59:23",
+            "updated_at": "2024-09-30 11:59:23",
+            "created_by": {
+                "id": 89,
+                "name": "Carrol McElvogue"
+            },
+            "updated_by": {
+                "id": 40,
+                "name": "Carter Hirsch"
+            }
+        },
+        {
+            "id": 26,
+            "movement_date": "2024-02-12 11:59:23",
+            "book": {
+                "id": 4,
+                "name": "Pollyanna"
+            },
+            "quantity": 2,
+            "type": 2,
+            "created_at": "2023-04-19 11:59:23",
+            "updated_at": "2023-03-20 11:59:23",
+            "created_by": {
+                "id": 146,
+                "name": "Tiphany Farden"
+            },
+            "updated_by": {
+                "id": 33,
+                "name": "Cort Sharply"
+            }
+        },
+        {
+            "id": 27,
+            "movement_date": "2023-07-03 11:59:23",
+            "book": {
+                "id": 2,
+                "name": "The Two Towers"
+            },
+            "quantity": 9,
+            "type": 3,
+            "created_at": "2023-01-14 11:59:23",
+            "updated_at": "2024-01-04 11:59:23",
+            "created_by": {
+                "id": 184,
+                "name": "Seward Rainy"
+            },
+            "updated_by": {
+                "id": 93,
+                "name": "Rowland Mallia"
+            }
+        },
+        {
+            "id": 28,
+            "movement_date": "2023-05-01 11:59:23",
+            "book": {
+                "id": 6,
+                "name": "The Art of War"
+            },
+            "quantity": 3,
+            "type": 3,
+            "created_at": "2024-03-01 11:59:23",
+            "updated_at": "2024-06-09 11:59:23",
+            "created_by": {
+                "id": 14,
+                "name": "Aubrie Malt"
+            },
+            "updated_by": {
+                "id": 39,
+                "name": "Eal Dunkerly"
+            }
+        },
+        {
+            "id": 29,
+            "movement_date": "2024-09-18 11:59:23",
+            "book": {
+                "id": 29,
+                "name": "The Alchemist"
+            },
+            "quantity": 9,
+            "type": 2,
+            "created_at": "2024-06-21 11:59:23",
+            "updated_at": "2024-02-11 11:59:23",
+            "created_by": {
+                "id": 40,
+                "name": "Carter Hirsch"
+            },
+            "updated_by": {
+                "id": 87,
+                "name": "Zorana Thomassen"
+            }
+        },
+        {
+            "id": 30,
+            "movement_date": "2023-12-20 11:59:23",
+            "book": {
+                "id": 26,
+                "name": "Digital Fortress"
+            },
+            "quantity": 7,
+            "type": 2,
+            "created_at": "2024-04-22 11:59:23",
+            "updated_at": "2023-11-24 11:59:23",
+            "created_by": {
+                "id": 31,
+                "name": "Lane Daintith"
+            },
+            "updated_by": {
+                "id": 122,
+                "name": "Woodman Swadling"
+            }
+        },
+        {
+            "id": 31,
+            "movement_date": "2024-08-29 11:59:23",
+            "book": {
+                "id": 30,
+                "name": "To Kill a Mockingbird"
+            },
+            "quantity": 10,
+            "type": 3,
+            "created_at": "2023-02-28 11:59:23",
+            "updated_at": "2023-01-17 11:59:23",
+            "created_by": {
+                "id": 127,
+                "name": "Galina Haysham"
+            },
+            "updated_by": {
+                "id": 108,
+                "name": "Kiersten Treneman"
+            }
+        },
+        {
+            "id": 32,
+            "movement_date": "2023-11-02 11:59:23",
+            "book": {
+                "id": 1,
+                "name": "The Fellowship of the Ring"
+            },
+            "quantity": 7,
+            "type": 2,
+            "created_at": "2024-06-21 11:59:23",
+            "updated_at": "2024-08-25 11:59:23",
+            "created_by": {
+                "id": 80,
+                "name": "Wernher McCue"
+            },
+            "updated_by": {
+                "id": 94,
+                "name": "Giordano Poyser"
+            }
+        },
+        {
+            "id": 33,
+            "movement_date": "2023-11-05 11:59:23",
+            "book": {
+                "id": 12,
+                "name": "Mockingjay"
+            },
+            "quantity": 7,
+            "type": 1,
+            "created_at": "2023-06-05 11:59:23",
+            "updated_at": "2023-10-10 11:59:23",
+            "created_by": {
+                "id": 26,
+                "name": "Obadiah Fitzmaurice"
+            },
+            "updated_by": {
+                "id": 147,
+                "name": "Billie Lindholm"
+            }
+        },
+        {
+            "id": 34,
+            "movement_date": "2023-07-23 11:59:23",
+            "book": {
+                "id": 9,
+                "name": "Harry Potter and the Sorcerer\u2019s Stone"
+            },
+            "quantity": 7,
+            "type": 1,
+            "created_at": "2024-06-21 11:59:23",
+            "updated_at": "2023-05-29 11:59:23",
+            "created_by": {
+                "id": 178,
+                "name": "Coleen Mingey"
+            },
+            "updated_by": {
+                "id": 57,
+                "name": "Madelene Pavkovic"
+            }
+        },
+        {
+            "id": 35,
+            "movement_date": "2024-01-17 11:59:23",
+            "book": {
+                "id": 2,
+                "name": "The Two Towers"
+            },
+            "quantity": 2,
+            "type": 2,
+            "created_at": "2023-11-15 11:59:23",
+            "updated_at": "2024-06-06 11:59:23",
+            "created_by": {
+                "id": 74,
+                "name": "Haily Hague"
+            },
+            "updated_by": {
+                "id": 165,
+                "name": "Alayne Hinkens"
+            }
+        },
+        {
+            "id": 36,
+            "movement_date": "2023-12-22 11:59:23",
+            "book": {
+                "id": 2,
+                "name": "The Two Towers"
+            },
+            "quantity": 10,
+            "type": 3,
+            "created_at": "2024-03-16 11:59:23",
+            "updated_at": "2023-06-08 11:59:23",
+            "created_by": {
+                "id": 32,
+                "name": "Minni Alessandone"
+            },
+            "updated_by": {
+                "id": 184,
+                "name": "Seward Rainy"
+            }
+        },
+        {
+            "id": 37,
+            "movement_date": "2023-11-03 11:59:23",
+            "book": {
+                "id": 14,
+                "name": "1984"
+            },
+            "quantity": 5,
+            "type": 1,
+            "created_at": "2022-12-02 11:59:23",
+            "updated_at": "2023-11-10 11:59:23",
+            "created_by": {
+                "id": 67,
+                "name": "Genna Breeds"
+            },
+            "updated_by": {
+                "id": 57,
+                "name": "Madelene Pavkovic"
+            }
+        },
+        {
+            "id": 38,
+            "movement_date": "2024-01-14 11:59:23",
+            "book": {
+                "id": 16,
+                "name": "Looking for Alaska"
+            },
+            "quantity": 5,
+            "type": 3,
+            "created_at": "2023-01-28 11:59:23",
+            "updated_at": "2023-02-24 11:59:23",
+            "created_by": {
+                "id": 30,
+                "name": "Andree Craigs"
+            },
+            "updated_by": {
+                "id": 3,
+                "name": "Ross Mableson"
+            }
+        },
+        {
+            "id": 39,
+            "movement_date": "2024-01-15 11:59:23",
+            "book": {
+                "id": 25,
+                "name": "The Da Vinci Code"
+            },
+            "quantity": 8,
+            "type": 1,
+            "created_at": "2024-09-13 11:59:23",
+            "updated_at": "2024-09-20 11:59:23",
+            "created_by": {
+                "id": 151,
+                "name": "Amandi Matherson"
+            },
+            "updated_by": {
+                "id": 37,
+                "name": "Sher Hinge"
+            }
+        },
+        {
+            "id": 40,
+            "movement_date": "2022-10-26 11:59:23",
+            "book": {
+                "id": 26,
+                "name": "Digital Fortress"
+            },
+            "quantity": 2,
+            "type": 3,
+            "created_at": "2023-11-19 11:59:23",
+            "updated_at": "2023-02-02 11:59:23",
+            "created_by": {
+                "id": 107,
+                "name": "Lexis Pollicott"
+            },
+            "updated_by": {
+                "id": 126,
+                "name": "Patsy Counsell"
+            }
+        },
+        {
+            "id": 41,
+            "movement_date": "2024-07-19 11:59:23",
+            "book": {
+                "id": 29,
+                "name": "The Alchemist"
+            },
+            "quantity": 5,
+            "type": 1,
+            "created_at": "2024-09-30 11:59:23",
+            "updated_at": "2023-07-08 11:59:23",
+            "created_by": {
+                "id": 36,
+                "name": "Raimund Thorlby"
+            },
+            "updated_by": {
+                "id": 181,
+                "name": "Dal Badland"
+            }
+        },
+        {
+            "id": 42,
+            "movement_date": "2023-11-11 11:59:23",
+            "book": {
+                "id": 9,
+                "name": "Harry Potter and the Sorcerer\u2019s Stone"
+            },
+            "quantity": 6,
+            "type": 1,
+            "created_at": "2023-09-12 11:59:23",
+            "updated_at": "2023-12-19 11:59:23",
+            "created_by": {
+                "id": 26,
+                "name": "Obadiah Fitzmaurice"
+            },
+            "updated_by": {
+                "id": 40,
+                "name": "Carter Hirsch"
+            }
+        },
+        {
+            "id": 43,
+            "movement_date": "2024-08-18 11:59:23",
+            "book": {
+                "id": 11,
+                "name": "Lord of the Flies"
+            },
+            "quantity": 5,
+            "type": 3,
+            "created_at": "2024-10-07 11:59:23",
+            "updated_at": "2024-04-28 11:59:23",
+            "created_by": {
+                "id": 195,
+                "name": "Marillin Clapston"
+            },
+            "updated_by": {
+                "id": 110,
+                "name": "Toinette Claxton"
+            }
+        },
+        {
+            "id": 44,
+            "movement_date": "2023-02-11 11:59:23",
+            "book": {
+                "id": 29,
+                "name": "The Alchemist"
+            },
+            "quantity": 6,
+            "type": 3,
+            "created_at": "2023-07-06 11:59:23",
+            "updated_at": "2024-03-20 11:59:23",
+            "created_by": {
+                "id": 30,
+                "name": "Andree Craigs"
+            },
+            "updated_by": {
+                "id": 128,
+                "name": "Alex Marks"
+            }
+        },
+        {
+            "id": 45,
+            "movement_date": "2023-10-08 11:59:23",
+            "book": {
+                "id": 24,
+                "name": "Angels & Demons"
+            },
+            "quantity": 10,
+            "type": 2,
+            "created_at": "2023-12-10 11:59:23",
+            "updated_at": "2024-10-14 11:59:23",
+            "created_by": {
+                "id": 3,
+                "name": "Ross Mableson"
+            },
+            "updated_by": {
+                "id": 29,
+                "name": "Barnabe Bavage"
+            }
+        },
+        {
+            "id": 46,
+            "movement_date": "2024-04-26 11:59:23",
+            "book": {
+                "id": 11,
+                "name": "Lord of the Flies"
+            },
+            "quantity": 3,
+            "type": 2,
+            "created_at": "2023-11-01 11:59:23",
+            "updated_at": "2024-08-25 11:59:23",
+            "created_by": {
+                "id": 148,
+                "name": "Shirline Acors"
+            },
+            "updated_by": {
+                "id": 146,
+                "name": "Tiphany Farden"
+            }
+        },
+        {
+            "id": 47,
+            "movement_date": "2023-07-04 11:59:23",
+            "book": {
+                "id": 27,
+                "name": "Harry Potter and the Prisoner of Azkaban"
+            },
+            "quantity": 3,
+            "type": 1,
+            "created_at": "2023-02-28 11:59:23",
+            "updated_at": "2024-07-29 11:59:23",
+            "created_by": {
+                "id": 184,
+                "name": "Seward Rainy"
+            },
+            "updated_by": {
+                "id": 60,
+                "name": "Jens Reynoollds"
+            }
+        },
+        {
+            "id": 48,
+            "movement_date": "2022-12-19 11:59:23",
+            "book": {
+                "id": 6,
+                "name": "The Art of War"
+            },
+            "quantity": 10,
+            "type": 2,
+            "created_at": "2023-09-25 11:59:23",
+            "updated_at": "2024-08-05 11:59:23",
+            "created_by": {
+                "id": 144,
+                "name": "Donovan Rishbrook"
+            },
+            "updated_by": {
+                "id": 97,
+                "name": "Hephzibah Housley"
+            }
+        },
+        {
+            "id": 49,
+            "movement_date": "2022-12-27 11:59:23",
+            "book": {
+                "id": 19,
+                "name": "Dune"
+            },
+            "quantity": 4,
+            "type": 3,
+            "created_at": "2023-03-21 11:59:23",
+            "updated_at": "2023-01-13 11:59:23",
+            "created_by": {
+                "id": 148,
+                "name": "Shirline Acors"
+            },
+            "updated_by": {
+                "id": 72,
+                "name": "Brander Dedrick"
+            }
+        },
+        {
+            "id": 50,
+            "movement_date": "2024-10-01 11:59:23",
+            "book": {
+                "id": 23,
+                "name": "Eclipse"
+            },
+            "quantity": 1,
+            "type": 1,
+            "created_at": "2023-12-10 11:59:23",
+            "updated_at": "2023-07-18 11:59:23",
+            "created_by": {
+                "id": 183,
+                "name": "Gaultiero Thiolier"
+            },
+            "updated_by": {
+                "id": 101,
+                "name": "Blinnie Haker"
+            }
+        },
+        {
+            "id": 51,
+            "movement_date": "2024-10-07 11:59:23",
+            "book": {
+                "id": 26,
+                "name": "Digital Fortress"
+            },
+            "quantity": 1,
+            "type": 1,
+            "created_at": "2022-12-15 11:59:23",
+            "updated_at": "2024-03-05 11:59:23",
+            "created_by": {
+                "id": 45,
+                "name": "Truman Mc Menamin"
+            },
+            "updated_by": {
+                "id": 83,
+                "name": "Isiahi Tidgewell"
+            }
+        },
+        {
+            "id": 52,
+            "movement_date": "2024-02-29 11:59:23",
+            "book": {
+                "id": 26,
+                "name": "Digital Fortress"
+            },
+            "quantity": 10,
+            "type": 1,
+            "created_at": "2023-03-01 11:59:23",
+            "updated_at": "2023-08-23 11:59:23",
+            "created_by": {
+                "id": 57,
+                "name": "Madelene Pavkovic"
+            },
+            "updated_by": {
+                "id": 5,
+                "name": "Ellsworth Pawnsford"
+            }
+        },
+        {
+            "id": 53,
+            "movement_date": "2023-02-08 11:59:23",
+            "book": {
+                "id": 10,
+                "name": "Pride and Prejudice"
+            },
+            "quantity": 6,
+            "type": 3,
+            "created_at": "2023-05-29 11:59:23",
+            "updated_at": "2023-06-28 11:59:23",
+            "created_by": {
+                "id": 197,
+                "name": "Ketty Bernardet"
+            },
+            "updated_by": {
+                "id": 48,
+                "name": "Nolan Rambadt"
+            }
+        },
+        {
+            "id": 54,
+            "movement_date": "2023-01-08 11:59:23",
+            "book": {
+                "id": 14,
+                "name": "1984"
+            },
+            "quantity": 6,
+            "type": 1,
+            "created_at": "2024-01-30 11:59:23",
+            "updated_at": "2024-10-07 11:59:23",
+            "created_by": {
+                "id": 133,
+                "name": "Milka Nolder"
+            },
+            "updated_by": {
+                "id": 82,
+                "name": "Desmund Ponceford"
+            }
+        },
+        {
+            "id": 55,
+            "movement_date": "2023-02-11 11:59:23",
+            "book": {
+                "id": 20,
+                "name": "Dune Messiah"
+            },
+            "quantity": 3,
+            "type": 1,
+            "created_at": "2024-02-02 11:59:23",
+            "updated_at": "2023-04-26 11:59:23",
+            "created_by": {
+                "id": 44,
+                "name": "Kat Heasly"
+            },
+            "updated_by": {
+                "id": 89,
+                "name": "Carrol McElvogue"
+            }
+        },
+        {
+            "id": 56,
+            "movement_date": "2023-11-26 11:59:23",
+            "book": {
+                "id": 3,
+                "name": "The Return of the King"
+            },
+            "quantity": 2,
+            "type": 3,
+            "created_at": "2024-04-20 11:59:23",
+            "updated_at": "2022-10-25 11:59:23",
+            "created_by": {
+                "id": 24,
+                "name": "Farlay Hurleston"
+            },
+            "updated_by": {
+                "id": 93,
+                "name": "Rowland Mallia"
+            }
+        },
+        {
+            "id": 57,
+            "movement_date": "2023-02-19 11:59:23",
+            "book": {
+                "id": 13,
+                "name": "Catching Fire"
+            },
+            "quantity": 10,
+            "type": 1,
+            "created_at": "2022-10-28 11:59:23",
+            "updated_at": "2022-12-13 11:59:23",
+            "created_by": {
+                "id": 14,
+                "name": "Aubrie Malt"
+            },
+            "updated_by": {
+                "id": 194,
+                "name": "Emmet Kumar"
+            }
+        },
+        {
+            "id": 58,
+            "movement_date": "2024-01-04 11:59:23",
+            "book": {
+                "id": 30,
+                "name": "To Kill a Mockingbird"
+            },
+            "quantity": 8,
+            "type": 1,
+            "created_at": "2023-10-19 11:59:23",
+            "updated_at": "2022-10-23 11:59:23",
+            "created_by": {
+                "id": 141,
+                "name": "Stanford Saffe"
+            },
+            "updated_by": {
+                "id": 84,
+                "name": "Chip Stucksbury"
+            }
+        },
+        {
+            "id": 59,
+            "movement_date": "2024-04-12 11:59:23",
+            "book": {
+                "id": 23,
+                "name": "Eclipse"
+            },
+            "quantity": 10,
+            "type": 3,
+            "created_at": "2023-07-04 11:59:23",
+            "updated_at": "2024-06-13 11:59:23",
+            "created_by": {
+                "id": 150,
+                "name": "Emanuel Davson"
+            },
+            "updated_by": {
+                "id": 32,
+                "name": "Minni Alessandone"
+            }
+        },
+        {
+            "id": 60,
+            "movement_date": "2022-10-29 11:59:23",
+            "book": {
+                "id": 20,
+                "name": "Dune Messiah"
+            },
+            "quantity": 1,
+            "type": 3,
+            "created_at": "2024-08-11 11:59:23",
+            "updated_at": "2023-09-09 11:59:23",
+            "created_by": {
+                "id": 147,
+                "name": "Billie Lindholm"
+            },
+            "updated_by": {
+                "id": 47,
+                "name": "Niel Kluger"
+            }
+        },
+        {
+            "id": 61,
+            "movement_date": "2024-06-06 11:59:23",
+            "book": {
+                "id": 29,
+                "name": "The Alchemist"
+            },
+            "quantity": 8,
+            "type": 2,
+            "created_at": "2023-07-19 11:59:23",
+            "updated_at": "2024-08-30 11:59:23",
+            "created_by": {
+                "id": 15,
+                "name": "Kippie Villaron"
+            },
+            "updated_by": {
+                "id": 160,
+                "name": "Shea Jimeno"
+            }
+        },
+        {
+            "id": 62,
+            "movement_date": "2024-03-10 11:59:23",
+            "book": {
+                "id": 26,
+                "name": "Digital Fortress"
+            },
+            "quantity": 9,
+            "type": 2,
+            "created_at": "2023-01-21 11:59:23",
+            "updated_at": "2022-12-20 11:59:23",
+            "created_by": {
+                "id": 185,
+                "name": "Pearce Casol"
+            },
+            "updated_by": {
+                "id": 138,
+                "name": "Kylie Arzu"
+            }
+        },
+        {
+            "id": 63,
+            "movement_date": "2023-03-12 11:59:23",
+            "book": {
+                "id": 2,
+                "name": "The Two Towers"
+            },
+            "quantity": 10,
+            "type": 3,
+            "created_at": "2023-07-19 11:59:23",
+            "updated_at": "2023-09-28 11:59:23",
+            "created_by": {
+                "id": 83,
+                "name": "Isiahi Tidgewell"
+            },
+            "updated_by": {
+                "id": 46,
+                "name": "Bogart Greenly"
+            }
+        },
+        {
+            "id": 64,
+            "movement_date": "2024-06-20 11:59:23",
+            "book": {
+                "id": 23,
+                "name": "Eclipse"
+            },
+            "quantity": 5,
+            "type": 1,
+            "created_at": "2022-10-29 11:59:23",
+            "updated_at": "2023-02-22 11:59:23",
+            "created_by": {
+                "id": 9,
+                "name": "Eugine Niesegen"
+            },
+            "updated_by": {
+                "id": 52,
+                "name": "Alyosha Boutell"
+            }
+        },
+        {
+            "id": 65,
+            "movement_date": "2023-12-19 11:59:23",
+            "book": {
+                "id": 12,
+                "name": "Mockingjay"
+            },
+            "quantity": 5,
+            "type": 1,
+            "created_at": "2022-10-24 11:59:23",
+            "updated_at": "2024-07-21 11:59:23",
+            "created_by": {
+                "id": 172,
+                "name": "Hermy Awton"
+            },
+            "updated_by": {
+                "id": 91,
+                "name": "Kris Cannop"
+            }
+        },
+        {
+            "id": 66,
+            "movement_date": "2023-10-18 11:59:23",
+            "book": {
+                "id": 13,
+                "name": "Catching Fire"
+            },
+            "quantity": 10,
+            "type": 2,
+            "created_at": "2022-12-12 11:59:23",
+            "updated_at": "2024-01-22 11:59:23",
+            "created_by": {
+                "id": 123,
+                "name": "Jess Randleson"
+            },
+            "updated_by": {
+                "id": 125,
+                "name": "Haskell Rucklesse"
+            }
+        },
+        {
+            "id": 67,
+            "movement_date": "2024-03-24 11:59:23",
+            "book": {
+                "id": 17,
+                "name": "Animal Farm"
+            },
+            "quantity": 4,
+            "type": 1,
+            "created_at": "2024-06-13 11:59:23",
+            "updated_at": "2024-06-05 11:59:23",
+            "created_by": {
+                "id": 79,
+                "name": "Emery Thorpe"
+            },
+            "updated_by": {
+                "id": 157,
+                "name": "Odille Orleton"
+            }
+        },
+        {
+            "id": 68,
+            "movement_date": "2024-03-07 11:59:23",
+            "book": {
+                "id": 5,
+                "name": "The Hobbit"
+            },
+            "quantity": 10,
+            "type": 1,
+            "created_at": "2024-08-25 11:59:23",
+            "updated_at": "2023-08-26 11:59:23",
+            "created_by": {
+                "id": 163,
+                "name": "Fanni Cheak"
+            },
+            "updated_by": {
+                "id": 31,
+                "name": "Lane Daintith"
+            }
+        },
+        {
+            "id": 69,
+            "movement_date": "2023-08-17 11:59:23",
+            "book": {
+                "id": 24,
+                "name": "Angels & Demons"
+            },
+            "quantity": 7,
+            "type": 3,
+            "created_at": "2023-01-29 11:59:23",
+            "updated_at": "2023-12-01 11:59:23",
+            "created_by": {
+                "id": 57,
+                "name": "Madelene Pavkovic"
+            },
+            "updated_by": {
+                "id": 159,
+                "name": "Lezlie Catterell"
+            }
+        },
+        {
+            "id": 70,
+            "movement_date": "2024-09-22 11:59:23",
+            "book": {
+                "id": 22,
+                "name": "New Moon"
+            },
+            "quantity": 6,
+            "type": 3,
+            "created_at": "2024-07-24 11:59:23",
+            "updated_at": "2023-02-13 11:59:23",
+            "created_by": {
+                "id": 123,
+                "name": "Jess Randleson"
+            },
+            "updated_by": {
+                "id": 137,
+                "name": "Gabriel Skelding"
+            }
+        },
+        {
+            "id": 71,
+            "movement_date": "2024-07-25 11:59:23",
+            "book": {
+                "id": 27,
+                "name": "Harry Potter and the Prisoner of Azkaban"
+            },
+            "quantity": 1,
+            "type": 1,
+            "created_at": "2023-06-08 11:59:23",
+            "updated_at": "2024-06-05 11:59:23",
+            "created_by": {
+                "id": 104,
+                "name": "Roseanne Oatley"
+            },
+            "updated_by": {
+                "id": 138,
+                "name": "Kylie Arzu"
+            }
+        },
+        {
+            "id": 72,
+            "movement_date": "2023-11-12 11:59:23",
+            "book": {
+                "id": 29,
+                "name": "The Alchemist"
+            },
+            "quantity": 10,
+            "type": 3,
+            "created_at": "2023-07-24 11:59:23",
+            "updated_at": "2024-07-24 11:59:23",
+            "created_by": {
+                "id": 19,
+                "name": "Alfie Grzelewski"
+            },
+            "updated_by": {
+                "id": 1,
+                "name": "Jonathan Costa"
+            }
+        },
+        {
+            "id": 73,
+            "movement_date": "2023-12-09 11:59:23",
+            "book": {
+                "id": 26,
+                "name": "Digital Fortress"
+            },
+            "quantity": 3,
+            "type": 2,
+            "created_at": "2024-04-25 11:59:23",
+            "updated_at": "2024-06-20 11:59:23",
+            "created_by": {
+                "id": 118,
+                "name": "Orv Vance"
+            },
+            "updated_by": {
+                "id": 134,
+                "name": "Vivyanne Totaro"
+            }
+        },
+        {
+            "id": 74,
+            "movement_date": "2022-12-08 11:59:23",
+            "book": {
+                "id": 7,
+                "name": "The Lightning Thief"
+            },
+            "quantity": 3,
+            "type": 2,
+            "created_at": "2023-09-02 11:59:23",
+            "updated_at": "2023-05-06 11:59:23",
+            "created_by": {
+                "id": 47,
+                "name": "Niel Kluger"
+            },
+            "updated_by": {
+                "id": 139,
+                "name": "Barry Alcorn"
+            }
+        },
+        {
+            "id": 75,
+            "movement_date": "2024-03-05 11:59:23",
+            "book": {
+                "id": 23,
+                "name": "Eclipse"
+            },
+            "quantity": 5,
+            "type": 1,
+            "created_at": "2024-02-29 11:59:23",
+            "updated_at": "2023-04-27 11:59:23",
+            "created_by": {
+                "id": 136,
+                "name": "Trever Winder"
+            },
+            "updated_by": {
+                "id": 9,
+                "name": "Eugine Niesegen"
+            }
+        },
+        {
+            "id": 76,
+            "movement_date": "2024-04-15 11:59:23",
+            "book": {
+                "id": 25,
+                "name": "The Da Vinci Code"
+            },
+            "quantity": 3,
+            "type": 3,
+            "created_at": "2023-06-09 11:59:23",
+            "updated_at": "2024-01-03 11:59:23",
+            "created_by": {
+                "id": 142,
+                "name": "Ardenia Last"
+            },
+            "updated_by": {
+                "id": 122,
+                "name": "Woodman Swadling"
+            }
+        },
+        {
+            "id": 77,
+            "movement_date": "2023-05-26 11:59:23",
+            "book": {
+                "id": 26,
+                "name": "Digital Fortress"
+            },
+            "quantity": 6,
+            "type": 3,
+            "created_at": "2023-03-25 11:59:23",
+            "updated_at": "2023-03-06 11:59:23",
+            "created_by": {
+                "id": 192,
+                "name": "Bethina Strathman"
+            },
+            "updated_by": {
+                "id": 107,
+                "name": "Lexis Pollicott"
+            }
+        },
+        {
+            "id": 78,
+            "movement_date": "2023-06-28 11:59:23",
+            "book": {
+                "id": 23,
+                "name": "Eclipse"
+            },
+            "quantity": 3,
+            "type": 3,
+            "created_at": "2022-12-09 11:59:23",
+            "updated_at": "2022-11-25 11:59:23",
+            "created_by": {
+                "id": 55,
+                "name": "Grazia Olanda"
+            },
+            "updated_by": {
+                "id": 42,
+                "name": "Care Goodwin"
+            }
+        },
+        {
+            "id": 79,
+            "movement_date": "2022-10-23 11:59:23",
+            "book": {
+                "id": 13,
+                "name": "Catching Fire"
+            },
+            "quantity": 6,
+            "type": 3,
+            "created_at": "2023-09-09 11:59:23",
+            "updated_at": "2024-02-07 11:59:23",
+            "created_by": {
+                "id": 113,
+                "name": "Marlyn Blaisdale"
+            },
+            "updated_by": {
+                "id": 96,
+                "name": "Rufe Tyne"
+            }
+        },
+        {
+            "id": 80,
+            "movement_date": "2023-03-02 11:59:23",
+            "book": {
+                "id": 9,
+                "name": "Harry Potter and the Sorcerer\u2019s Stone"
+            },
+            "quantity": 8,
+            "type": 1,
+            "created_at": "2023-06-03 11:59:23",
+            "updated_at": "2024-09-30 11:59:23",
+            "created_by": {
+                "id": 76,
+                "name": "Nissa Seed"
+            },
+            "updated_by": {
+                "id": 14,
+                "name": "Aubrie Malt"
+            }
+        },
+        {
+            "id": 81,
+            "movement_date": "2023-11-30 11:59:23",
+            "book": {
+                "id": 13,
+                "name": "Catching Fire"
+            },
+            "quantity": 10,
+            "type": 1,
+            "created_at": "2023-09-18 11:59:23",
+            "updated_at": "2023-02-13 11:59:23",
+            "created_by": {
+                "id": 74,
+                "name": "Haily Hague"
+            },
+            "updated_by": {
+                "id": 182,
+                "name": "Lewiss Smee"
+            }
+        },
+        {
+            "id": 82,
+            "movement_date": "2024-01-31 11:59:23",
+            "book": {
+                "id": 2,
+                "name": "The Two Towers"
+            },
+            "quantity": 4,
+            "type": 3,
+            "created_at": "2024-08-14 11:59:23",
+            "updated_at": "2023-05-20 11:59:23",
+            "created_by": {
+                "id": 106,
+                "name": "Bret Le Fevre"
+            },
+            "updated_by": {
+                "id": 115,
+                "name": "Lisetta Wolfarth"
+            }
+        },
+        {
+            "id": 83,
+            "movement_date": "2023-10-06 11:59:23",
+            "book": {
+                "id": 8,
+                "name": "The Fault in Our Stars"
+            },
+            "quantity": 4,
+            "type": 3,
+            "created_at": "2023-12-13 11:59:23",
+            "updated_at": "2023-07-21 11:59:23",
+            "created_by": {
+                "id": 191,
+                "name": "Terrill Stegel"
+            },
+            "updated_by": {
+                "id": 72,
+                "name": "Brander Dedrick"
+            }
+        },
+        {
+            "id": 84,
+            "movement_date": "2023-04-14 11:59:23",
+            "book": {
+                "id": 24,
+                "name": "Angels & Demons"
+            },
+            "quantity": 6,
+            "type": 1,
+            "created_at": "2023-04-10 11:59:23",
+            "updated_at": "2022-10-25 11:59:23",
+            "created_by": {
+                "id": 53,
+                "name": "Adaline Carlisso"
+            },
+            "updated_by": {
+                "id": 194,
+                "name": "Emmet Kumar"
+            }
+        },
+        {
+            "id": 85,
+            "movement_date": "2024-04-06 11:59:23",
+            "book": {
+                "id": 21,
+                "name": "Children of Dune"
+            },
+            "quantity": 4,
+            "type": 3,
+            "created_at": "2023-02-01 11:59:23",
+            "updated_at": "2023-11-18 11:59:23",
+            "created_by": {
+                "id": 180,
+                "name": "Wainwright Dallosso"
+            },
+            "updated_by": {
+                "id": 186,
+                "name": "Hillel Bellew"
+            }
+        },
+        {
+            "id": 86,
+            "movement_date": "2023-03-14 11:59:23",
+            "book": {
+                "id": 1,
+                "name": "The Fellowship of the Ring"
+            },
+            "quantity": 10,
+            "type": 1,
+            "created_at": "2024-03-27 11:59:23",
+            "updated_at": "2024-03-08 11:59:23",
+            "created_by": {
+                "id": 161,
+                "name": "Colan Pavis"
+            },
+            "updated_by": {
+                "id": 168,
+                "name": "Griffie MacKissack"
+            }
+        },
+        {
+            "id": 87,
+            "movement_date": "2023-12-30 11:59:23",
+            "book": {
+                "id": 29,
+                "name": "The Alchemist"
+            },
+            "quantity": 4,
+            "type": 3,
+            "created_at": "2024-02-08 11:59:23",
+            "updated_at": "2024-07-01 11:59:23",
+            "created_by": {
+                "id": 92,
+                "name": "Giacopo Paggitt"
+            },
+            "updated_by": {
+                "id": 133,
+                "name": "Milka Nolder"
+            }
+        },
+        {
+            "id": 88,
+            "movement_date": "2024-05-28 11:59:23",
+            "book": {
+                "id": 18,
+                "name": "Dracula"
+            },
+            "quantity": 10,
+            "type": 1,
+            "created_at": "2024-01-30 11:59:23",
+            "updated_at": "2024-07-07 11:59:23",
+            "created_by": {
+                "id": 102,
+                "name": "Hilarius Wyse"
+            },
+            "updated_by": {
+                "id": 13,
+                "name": "Audry Sinderland"
+            }
+        },
+        {
+            "id": 89,
+            "movement_date": "2024-01-29 11:59:23",
+            "book": {
+                "id": 12,
+                "name": "Mockingjay"
+            },
+            "quantity": 1,
+            "type": 3,
+            "created_at": "2023-04-16 11:59:23",
+            "updated_at": "2023-10-15 11:59:23",
+            "created_by": {
+                "id": 119,
+                "name": "Marten Britney"
+            },
+            "updated_by": {
+                "id": 130,
+                "name": "Valida Brownlee"
+            }
+        },
+        {
+            "id": 90,
+            "movement_date": "2023-07-10 11:59:23",
+            "book": {
+                "id": 26,
+                "name": "Digital Fortress"
+            },
+            "quantity": 6,
+            "type": 3,
+            "created_at": "2024-09-15 11:59:23",
+            "updated_at": "2023-05-28 11:59:23",
+            "created_by": {
+                "id": 24,
+                "name": "Farlay Hurleston"
+            },
+            "updated_by": {
+                "id": 186,
+                "name": "Hillel Bellew"
+            }
+        },
+        {
+            "id": 91,
+            "movement_date": "2023-04-01 11:59:23",
+            "book": {
+                "id": 12,
+                "name": "Mockingjay"
+            },
+            "quantity": 1,
+            "type": 1,
+            "created_at": "2023-11-28 11:59:23",
+            "updated_at": "2023-01-23 11:59:23",
+            "created_by": {
+                "id": 165,
+                "name": "Alayne Hinkens"
+            },
+            "updated_by": {
+                "id": 22,
+                "name": "Lindsey Pughe"
+            }
+        },
+        {
+            "id": 92,
+            "movement_date": "2024-01-09 11:59:23",
+            "book": {
+                "id": 7,
+                "name": "The Lightning Thief"
+            },
+            "quantity": 9,
+            "type": 1,
+            "created_at": "2023-02-03 11:59:23",
+            "updated_at": "2023-09-15 11:59:23",
+            "created_by": {
+                "id": 162,
+                "name": "Neddie Theriot"
+            },
+            "updated_by": {
+                "id": 6,
+                "name": "Frasier Tittletross"
+            }
+        },
+        {
+            "id": 93,
+            "movement_date": "2022-11-13 11:59:23",
+            "book": {
+                "id": 12,
+                "name": "Mockingjay"
+            },
+            "quantity": 7,
+            "type": 1,
+            "created_at": "2023-07-27 11:59:23",
+            "updated_at": "2023-09-04 11:59:23",
+            "created_by": {
+                "id": 47,
+                "name": "Niel Kluger"
+            },
+            "updated_by": {
+                "id": 90,
+                "name": "Sebastien Tonks"
+            }
+        },
+        {
+            "id": 94,
+            "movement_date": "2023-11-26 11:59:23",
+            "book": {
+                "id": 9,
+                "name": "Harry Potter and the Sorcerer\u2019s Stone"
+            },
+            "quantity": 2,
+            "type": 2,
+            "created_at": "2024-04-01 11:59:23",
+            "updated_at": "2023-08-09 11:59:23",
+            "created_by": {
+                "id": 178,
+                "name": "Coleen Mingey"
+            },
+            "updated_by": {
+                "id": 176,
+                "name": "Sully Mellsop"
+            }
+        },
+        {
+            "id": 95,
+            "movement_date": "2024-01-03 11:59:23",
+            "book": {
+                "id": 5,
+                "name": "The Hobbit"
+            },
+            "quantity": 8,
+            "type": 3,
+            "created_at": "2022-11-23 11:59:23",
+            "updated_at": "2023-10-07 11:59:23",
+            "created_by": {
+                "id": 55,
+                "name": "Grazia Olanda"
+            },
+            "updated_by": {
+                "id": 20,
+                "name": "Natale Malsher"
+            }
+        },
+        {
+            "id": 96,
+            "movement_date": "2023-08-04 11:59:23",
+            "book": {
+                "id": 10,
+                "name": "Pride and Prejudice"
+            },
+            "quantity": 9,
+            "type": 1,
+            "created_at": "2023-08-12 11:59:23",
+            "updated_at": "2023-04-09 11:59:23",
+            "created_by": {
+                "id": 97,
+                "name": "Hephzibah Housley"
+            },
+            "updated_by": {
+                "id": 31,
+                "name": "Lane Daintith"
+            }
+        },
+        {
+            "id": 97,
+            "movement_date": "2022-12-13 11:59:23",
+            "book": {
+                "id": 2,
+                "name": "The Two Towers"
+            },
+            "quantity": 4,
+            "type": 3,
+            "created_at": "2023-01-23 11:59:23",
+            "updated_at": "2023-08-03 11:59:23",
+            "created_by": {
+                "id": 28,
+                "name": "Sharla Bairstow"
+            },
+            "updated_by": {
+                "id": 39,
+                "name": "Eal Dunkerly"
+            }
+        },
+        {
+            "id": 98,
+            "movement_date": "2023-01-03 11:59:23",
+            "book": {
+                "id": 22,
+                "name": "New Moon"
+            },
+            "quantity": 9,
+            "type": 1,
+            "created_at": "2023-06-07 11:59:23",
+            "updated_at": "2024-02-16 11:59:23",
+            "created_by": {
+                "id": 191,
+                "name": "Terrill Stegel"
+            },
+            "updated_by": {
+                "id": 75,
+                "name": "Perrine Baldazzi"
+            }
+        },
+        {
+            "id": 99,
+            "movement_date": "2023-05-08 11:59:23",
+            "book": {
+                "id": 16,
+                "name": "Looking for Alaska"
+            },
+            "quantity": 9,
+            "type": 2,
+            "created_at": "2023-03-02 11:59:23",
+            "updated_at": "2023-10-15 11:59:23",
+            "created_by": {
+                "id": 5,
+                "name": "Ellsworth Pawnsford"
+            },
+            "updated_by": {
+                "id": 88,
+                "name": "Gene Sherrard"
+            }
+        },
+        {
+            "id": 100,
+            "movement_date": "2022-12-06 11:59:23",
+            "book": {
+                "id": 29,
+                "name": "The Alchemist"
+            },
+            "quantity": 1,
+            "type": 2,
+            "created_at": "2024-06-30 11:59:23",
+            "updated_at": "2023-07-25 11:59:23",
+            "created_by": {
+                "id": 128,
+                "name": "Alex Marks"
+            },
+            "updated_by": {
+                "id": 152,
+                "name": "Hi McKeggie"
+            }
+        }
+    ]
+}

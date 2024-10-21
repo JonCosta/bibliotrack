@@ -1,3 +1,4 @@
+import IdName from "./id-name";
 import User from "./user";
 
 class Base {
@@ -5,8 +6,8 @@ class Base {
     id: number | null;
     createdAt: Date | null;
     updatedAt: Date | null;
-    createdBy: User | null;
-    updatedBy: User | null;
+    createdBy: User | IdName | null;
+    updatedBy: User | IdName | null;
 
     constructor() {
         this.id = null;

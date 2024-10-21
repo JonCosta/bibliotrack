@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { ENUM_PROFILE } from '../utils/constants';
+import { ENUM_MOVEMENT_TYPE, ENUM_PROFILE } from '../utils/constants';
 
 
 @Pipe({
@@ -12,6 +12,8 @@ export class EnumPipe implements PipeTransform {
         switch (enumName) {
             case ENUM_PROFILE:
                 return this.getProfileLabel(value);
+            case ENUM_MOVEMENT_TYPE:
+                return this.getMovementTypeLabel(value);
         }
         return null;
     }
@@ -22,6 +24,20 @@ export class EnumPipe implements PipeTransform {
                 return "Administrator";
             case 2:
                 return "Employee";
+        }
+        return null;
+    }
+
+    private getMovementTypeLabel(value: unknown) {
+        switch (value) {
+            case 1:
+                return "Entry";
+            case 2:
+                return "Exit";
+            case 3:
+                return "Transfer";
+            case 4:
+                return "Return";
         }
         return null;
     }
