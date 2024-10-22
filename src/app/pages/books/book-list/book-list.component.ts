@@ -1,13 +1,12 @@
 import { ChangeDetectorRef, Component, ViewChild } from '@angular/core';
-import Book from '../../../core/models/book';
-import { ListSharedModule } from '../../../shared/modules/list-shared.module';
-
 import { MatPaginator, MatPaginatorIntl } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import * as mockData from "../../../../assets/mock/books.json";
+import Book from '../../../core/models/book';
 import { DialogService } from '../../../core/services/dialog.service';
 import { SnackbarService } from '../../../core/services/snackbar.service';
+import { ListSharedModule } from '../../../shared/modules/list-shared.module';
 
 @Component({
     selector: 'app-book-list',

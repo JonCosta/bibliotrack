@@ -1,0 +1,39 @@
+<form [formGroup]="filterForm">
+    <div class="flex-row gap-2">
+        <mat-form-field appearance="outline" class="flex-grow-1">
+            <mat-label>Period</mat-label>
+            <mat-date-range-input [rangePicker]="picker" placeholder="dd/MM/yyyy">
+                <input matStartDate placeholder="Start Date" formControlName="startDate">
+                <input matEndDate placeholder="End Date" formControlName="endDate" (dateChange)="onChangeEndDate($event)">
+            </mat-date-range-input>
+            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-date-range-picker #picker></mat-date-range-picker>
+        </mat-form-field>
+    
+        <mat-form-field appearance="outline" class="flex-grow-1">
+            <mat-label>Type</mat-label>
+            <mat-select formControlName="type" (selectionChange)="updateFilter()">
+                <mat-option>All</mat-option>
+                @for (movementType of movementTypeList; track movementType) {
+                <mat-option [value]="movementType">
+                    {{movementType | enum:"movementType"}}
+                </mat-option>
+                }
+            </mat-select>
+        </mat-form-field>
+    
+        <mat-form-field appearance="outline" class="flex-grow-2">
+            <mat-label>Book</mat-label>
+            <mat-select formControlName="book" (selectionChange)="updateFilter()">
+                <mat-option>All</mat-option>
+                @for (book of bookList; track book.id) {
+                <mat-option [value]="book.id">
+                    {{book.name}}
+                </mat-option>
+                }
+            </mat-select>
+        </mat-form-field>
+    
+    
+    </div>
+</form>

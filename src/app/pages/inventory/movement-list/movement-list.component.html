@@ -1,3 +1,5 @@
+<app-movement-filters (onFilterUpdated)="onFilterUpdated($event)"></app-movement-filters>
+
 <mat-card class="table-container" appearance="outlined">
     <mat-card-content>
         <table mat-table [dataSource]="tableDataSource" matSort matSortActive="movementDate" matSortDirection="desc">

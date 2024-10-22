@@ -14,7 +14,7 @@ import { FormSharedModule } from '../../../shared/modules/form-shared.module';
 })
 export class UserFormComponent {
 
-    profileList: any[];
+    profileList: Profile[];
     userForm: FormGroup;
 
     constructor(
