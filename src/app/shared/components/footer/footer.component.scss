@@ -1,3 +1,13 @@
 .footer-container {
     padding: 12px 4px;
+    font-size: small;
+}
+
+.portfolio-link {
+    color: white;
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
 }
