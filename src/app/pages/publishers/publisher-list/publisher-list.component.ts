@@ -43,7 +43,6 @@ export class PublisherListComponent {
     }
 
     handleClickEdit(id: number) {
-        console.log("Edit clicked", id);
 
     }
 

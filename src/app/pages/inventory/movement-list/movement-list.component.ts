@@ -35,7 +35,6 @@ export class MovementListComponent {
     }
 
     onFilterUpdated(selectedFilters: MovementFilter) {
-        console.log(selectedFilters);
         this.loadMovementListFromMock(selectedFilters);
     }
 

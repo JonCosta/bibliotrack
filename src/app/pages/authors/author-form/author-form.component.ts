@@ -23,7 +23,6 @@ export class AuthorFormComponent {
 
     onSubmitForm() {
         let author = this.authorForm.getRawValue();
-        console.log(author);
     }
 
     private configureForm() {

@@ -23,7 +23,6 @@ export class PublisherFormComponent {
 
     onSubmitForm() {
         let publisher = this.publisherForm.getRawValue();
-        console.log(publisher);
     }
 
     private configureForm() {

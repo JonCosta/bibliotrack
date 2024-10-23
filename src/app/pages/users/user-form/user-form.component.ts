@@ -26,7 +26,6 @@ export class UserFormComponent {
 
     onSubmitForm() {
         let user = this.userForm.getRawValue();
-        console.log(user);
     }
 
     private configureForm() {

@@ -43,7 +43,6 @@ export class AuthorListComponent {
     }
 
     handleClickEdit(id: number) {
-        console.log("Edit clicked", id);
 
     }
 

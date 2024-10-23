@@ -45,7 +45,6 @@ export class UserListComponent {
     }
 
     handleClickEdit(id: number) {
-        console.log("Edit clicked", id);
 
     }
 

@@ -53,8 +53,8 @@ export class MovementFiltersComponent {
 
     private configureForm() {
         let currentMoment = moment();
-        let firstDayOfMonth = currentMoment.startOf("month").toDate();
-        let lastDayOfMonth = currentMoment.endOf("month").toDate();
+        let firstDayOfMonth = currentMoment.startOf("year").toDate();
+        let lastDayOfMonth = currentMoment.endOf("year").toDate();
         return this.formBuilder.group({
             startDate: [firstDayOfMonth],
             endDate: [lastDayOfMonth],

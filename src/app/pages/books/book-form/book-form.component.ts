@@ -36,7 +36,6 @@ export class BookFormComponent {
 
     onSubmitForm() {
         let user = this.bookForm.getRawValue();
-        console.log(user);
     }
 
     private configureForm() {
