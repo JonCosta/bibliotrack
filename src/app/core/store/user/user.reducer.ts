@@ -1,5 +1,5 @@
 import { createReducer, on } from '@ngrx/store';
-import * as UserActions from './user.actions';
+import { UserActions } from './user.actions';
 import { usersInitialState } from './user.state';
 
 
@@ -14,6 +14,21 @@ export const usersReducer = createReducer(
         ...state,
         isLoading: false,
         users
+    })),
+    on(UserActions.loadAllUsersError, (state, { errorMessage }) => ({
+        ...state,
+        isLoading: false,
+        errorMessage
+    })),
+    on(UserActions.loadUser, (state) => ({
+        ...state,
+        isLoading: true,
+        errorMessage: null
+    })),
+    on(UserActions.loadUserSuccess, (state, { user }) => ({
+        ...state,
+        isLoading: false,
+        user
     })),
     on(UserActions.addUser, (state, { user }) => ({
         users: [...state.users, user],

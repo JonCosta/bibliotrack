@@ -8,7 +8,7 @@ import { Observable, of } from 'rxjs';
 import User from '../../../core/models/user';
 import { DialogService } from '../../../core/services/dialog.service';
 import { SnackbarService } from '../../../core/services/snackbar.service';
-import * as UserActions from '../../../core/store/user/user.actions';
+import { UserActions } from '../../../core/store/user/user.actions';
 import { selectUsers } from '../../../core/store/user/user.selector';
 import { ListSharedModule } from '../../../shared/modules/list-shared.module';
 import { getMockUserList } from '../../../shared/utils/mock-utils';
