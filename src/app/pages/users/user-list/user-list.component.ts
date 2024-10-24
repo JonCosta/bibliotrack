@@ -3,11 +3,15 @@ import { MatDialog } from '@angular/material/dialog';
 import { MatPaginator, MatPaginatorIntl } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
-import * as mockData from "../../../../assets/mock/users.json";
+import { Store } from '@ngrx/store';
+import { Observable, of } from 'rxjs';
 import User from '../../../core/models/user';
 import { DialogService } from '../../../core/services/dialog.service';
 import { SnackbarService } from '../../../core/services/snackbar.service';
+import * as UserActions from '../../../core/store/user/user.actions';
+import { selectUsers } from '../../../core/store/user/user.selector';
 import { ListSharedModule } from '../../../shared/modules/list-shared.module';
+import { getMockUserList } from '../../../shared/utils/mock-utils';
 
 @Component({
     selector: 'app-user-list',
@@ -24,6 +28,7 @@ export class UserListComponent {
     isLoading: boolean = false;
     userList: User[] = [];
     tableDataSource = new MatTableDataSource<User>([]);
+    users$: Observable<User[]> = of([]);
 
     readonly dialog = inject(MatDialog);
 
@@ -32,11 +37,18 @@ export class UserListComponent {
 
     constructor(
         private dialogService: DialogService,
-        private snackbarService: SnackbarService
-    ) { }
+        private snackbarService: SnackbarService,
+        private store: Store
+    ) {
+        this.users$ = this.store.select(selectUsers);
+    }
 
     ngOnInit() {
-        this.loadListFromMock();
+        this.store.dispatch(UserActions.loadAllUsers());
+        this.users$.subscribe(res => {
+            this.userList = res;
+            this.tableDataSource = new MatTableDataSource(res);
+        });
     }
 
     ngAfterViewInit() {
@@ -62,14 +74,8 @@ export class UserListComponent {
     }
 
     private loadListFromMock() {
-        if (!mockData) return;
         this.isLoading = true;
-        this.userList = [];
-        mockData.users.forEach(user => {
-            let newUser = new User(user);
-            this.userList.push(newUser);
-        });
-        
+        this.userList = getMockUserList();
         this.tableDataSource = new MatTableDataSource(this.userList);
         this.isLoading = false;
     }
